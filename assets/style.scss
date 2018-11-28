@@ -1,0 +1,9 @@
+// Define some base colors
+$blue: #2d8aca;
+
+// Customize Bulma default styles
+$primary: $blue;
+$navbar-height: 6rem;
+$navbar-item-img-max-height: 3rem;
+
+@import "./assets/bulma/bulma";
