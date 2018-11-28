@@ -1,9 +1,11 @@
 // Define some base colors
-$blue: #2d8aca;
+
+$sand: #c79c5a;
+$blue: #243946;
+$celeste: #586e70;
 
 // Customize Bulma default styles
-$primary: $blue;
-$navbar-height: 6rem;
-$navbar-item-img-max-height: 3rem;
+$primary: $sand;
+$navbar-height: 3rem;
 
 @import "./assets/bulma/bulma";
