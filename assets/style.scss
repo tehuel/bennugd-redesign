@@ -1,22 +1,44 @@
-// Define some base colors
 
+@import url('https://fonts.googleapis.com/css?family=Poppins|Fira+Mono');
+
+// Define some base colors
+// $blue: #243946;
 $sand: #c79c5a;
-$blue: #243946;
 $celeste: #586e70;
 
-// Customize Bulma default styles
 $primary: $sand;
+$info: $celeste;
+
+// Customize Bulma default styles
+$link: $celeste;
+$code: darken($sand, 40%);
 $navbar-height: 3rem;
+$family-primary: "Poppins", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-code: "Fira Mono", monospace;
 
 @import "./assets/bulma/bulma";
 
-figure.is-title-image {
-	width: 100%;
-	height: 50vh;
-	overflow: hidden;
-	img {
+h1, h2, h3, h4, h5, h6 {
+	font-family: $family-code;
+}
+
+pre {
+	color: $code;
+}
+
+div.news-card {
+	margin-bottom: 2rem;
+
+	figure.is-title-image {
 		width: 100%;
-		height: 100%;
-		object-fit: cover;
+		height: 30vh;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
 	}
+
 }

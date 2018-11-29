@@ -14,15 +14,30 @@
 
     <div class="section">
         <div class="container">
+            <div class="columns is-multiline is-centered">
 
-            <ul>
-            {{ range where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-                <li>
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </li>
-            {{ end}}
-            </ul>
+                {{ range where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+                    <div class="column is-one-third">
+                        <div class="card news-card">
+                            <div class="card-image">
+                                <a href="{{ .Permalink }}">
+                                    <figure class="image">
+                                        <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                    <h2 class="title is-5 is-marginless">
+                                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{ end}}
 
+            </div>
         </div>
     </div>
 
