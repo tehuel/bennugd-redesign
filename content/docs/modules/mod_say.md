@@ -1,6 +1,6 @@
 ---
 title: mod_say
-type: docs
+layout: module
 categories:
 - modules
 divlikes:

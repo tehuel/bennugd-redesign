@@ -1,5 +1,6 @@
 ---
 title: dirread()
+layout: function
 categories:
 - functions
 - files

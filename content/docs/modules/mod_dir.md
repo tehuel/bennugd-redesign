@@ -1,6 +1,6 @@
 ---
 title: mod_dir
-type: docs
+layout: module
 categories:
 - modules
 divlikes:

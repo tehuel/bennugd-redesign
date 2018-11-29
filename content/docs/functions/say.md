@@ -1,5 +1,6 @@
 ---
 title: say()
+layout: function
 categories:
 - functions
 - debug

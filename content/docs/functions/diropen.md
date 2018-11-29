@@ -1,5 +1,6 @@
 ---
 title: diropen()
+layout: function
 categories:
 - functions
 - files
