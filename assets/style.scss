@@ -9,3 +9,14 @@ $primary: $sand;
 $navbar-height: 3rem;
 
 @import "./assets/bulma/bulma";
+
+figure.is-title-image {
+	width: 100%;
+	height: 50vh;
+	overflow: hidden;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}

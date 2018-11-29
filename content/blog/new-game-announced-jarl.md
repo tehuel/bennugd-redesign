@@ -1,7 +1,7 @@
 ---
 title: "New game announced: Jarl"
 date: 2018-11-12
-image: https://www.bennugd.org/wp-content/uploads/2018/11/Selecci%C3%B3n_002.png
+image: /img/jarl.png
 categories:
   - games
 ---

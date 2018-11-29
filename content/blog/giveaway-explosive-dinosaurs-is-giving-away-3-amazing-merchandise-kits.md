@@ -1,7 +1,7 @@
 ---
 title: "GIVEAWAY! eXplosive Dinosaurs is giving away 3 merchandise sets"
 date: 2018-08-10
-image: https://www.bennugd.org/wp-content/uploads/2018/11/Selecci%C3%B3n_002.png
+image: /img/explosive-dinosaurs-giveaway.jpg
 categories:
   - games
   - community
