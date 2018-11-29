@@ -1,63 +1,41 @@
-<nav class="navbar">
+<nav class="navbar is-primary">
     <div class="container">
 
         <div class="navbar-brand">
-            <a class="navbar-item is-active" href="index.html">
-                <div style="display:flex">
-                    <p>BennuGD</p>
-                </div>
+            <a href="{{ .Site.Home.Permalink }}" class="navbar-item">
+                {{ .Site.Title }}
             </a>
-
-            <div class="navbar-burger">
+            <span class="navbar-burger burger" data-target="main-navbar">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </span>
         </div>
 
-        <div class="navbar-menu">
+
+        <div class="navbar-menu is-active">
             <div class="navbar-end has-text-centered-mobile">
 
-                <a href="novedades.html" class="navbar-item">Novedades</a>
-
-                <a href="documentacion.html" class="navbar-item">Documentacion</a>
-
-                <a href="proyectos.html" class="navbar-item">Proyectos</a>
-
-                <div class="navbar-item has-dropdown is-hoverable">
-
-                    <a class="navbar-link">
-                    Comunidad
-                    </a>
-
-                    <div class="navbar-dropdown">
-
-                        <a class="navbar-item" href="foro.html">
-                        Foro Oficial
-                        </a>
-
-                        <hr class="navbar-divider">
-
-                        <a class="navbar-item">
-                        Comunidad Francesa
-                        </a>
-
-                        <div class="navbar-item">
-                        Comunidad Italiana
+                {{- range .Site.Menus.main -}}
+                    {{- if .HasChildren -}}
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" title="{{ .Name }}">
+                                {{ .Name }}
+                            </a>
+                            <div class="navbar-dropdown is-transparent is-boxed">
+                                {{- range .Children -}}
+                                    <a class="navbar-item is-large" title="{{ .Name }}" href="{{ .URL }}">
+                                        {{ .Name }}
+                                    </a>
+                                {{- end -}}
+                            </div>
                         </div>
-
-                    </div>
-
-                </div>
-
-                <div class="navbar-item">
-                    <p class="control">
-                        <a class="button is-primary" href="descargas.html">
-                            <span class="icon"><i class="fa fa-download"></i></span>
-                            <span>Descargar</span>
+                    {{- else -}}
+                        <a class="navbar-item" title="{{ .Name }}" href="{{ .URL }}">
+                            {{ .Name }}
                         </a>
-                    </p>
-                </div>
+                    {{- end -}}
+                {{- end -}}
 
             </div>
         </div>

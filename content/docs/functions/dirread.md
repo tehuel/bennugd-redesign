@@ -8,8 +8,6 @@ divlikes:
 module: mod_dir
 ---
 
-# dirread()
-
 ## Definition
 
 	STRING dirread ( <INT handle> )

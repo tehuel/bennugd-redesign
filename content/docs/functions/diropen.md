@@ -8,8 +8,6 @@ divlikes:
 module: mod_dir
 ---
 
-# diropen()
-
 ## Definition
 
 	INT diropen ( <STRING folder> )
