@@ -1,0 +1,31 @@
+{{ define "content" }}
+
+    <div class="columns is-centered">
+        <div class="column is-two-thirds-desktop">
+
+            <h1 class="title">
+                {{ .Title }}
+            </h1>
+
+            <div class="content">
+                {{ .Content }}
+            </div>
+
+            <div class="box">
+                <p class="title is-4">Download Links</p>
+                <ul>
+                    <div class="buttons is-centered">
+                        {{ range .Params.Downloads }}
+                            <a class="button is-primary is-inverted" href="{{ .link }}">
+                                {{ .platform | title }} - {{ .version }}
+                                ({{ .size }})
+                            </a>
+                        {{ end}}
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+{{ end }}
