@@ -6,9 +6,9 @@
 
         <div class="section">
             <div class="container">
-
                 <div class="columns">
-                    <div class="column is-one-quarter">
+
+                    <div class="column is-3">
                         <aside class="menu">
                             {{ range where .Site.Sections "Type" "docs" }}
 
@@ -23,14 +23,21 @@
                             {{ end}}
                         </aside>
                     </div>
-                    <div class="column is-three-quarters">
+
+                    <div class="column is-6">
 
                         {{- block "content" . }}
                         {{- end }}
 
                     </div>
-                </div>
 
+                    <div class="column is-3">
+
+                        {{ .TableOfContents }}
+
+                    </div>
+
+                </div>
             </div>
         </div>
 
