@@ -5,42 +5,39 @@ menu: main
 weight: 5
 ---
 
-# Vocalibus optato et inscius uvae eminus parens
+## Introduction
 
-## Auras sub
+BennuGD, a Fenix fork from Fenix 0.93, is an interpreted programming language aimed at making games. It is designed in such a way, the graphical, sound and threading systems are easier to use, which makes Bennu a powerful language, not only for beginners, but also for experienced programmers.
 
-Lorem markdownum, de et muta. Tendentem tumidaque collo mota figuram [plenum
-ulterius](http://sidus-progenuit.net/scopulum) sonuere haec curasque caperet.
-Certa poteram cinerem cum [rigidis et](http://ore.io/sigei-habentem) pectus
-quippe! Oenides tristis est, sibi utque signa, fluxit incessere fores matertera.
-Vincemur meos cultor Themis nunc nam fessusque vocum, iram pater deficiunt.
+The BennuGD core is completely portable, it can be compiled for any platform, given there is a C compiler for it. The core contains the compiler, interpreter and runtime library. Bennu Modules use SDL for many of the basic functionality. Because of this, even the BennuGD modules are portable to many operating systems: Windows, Linux, GP2X Wiz, BeOS/Haiku, MacOS X, even consoles and handhelds like Dreamcast, GP2x or Wii. This makes it much fun to code in Bennu: your games can be played on your console, without modification!
 
-Gemit petunt, unda cum revertentes Pelasgi, terras Perseia fera adversos enim.
-Restabat custode, demugitaeque Lyctia rapta, et audentem dat meris morte pabula;
-[Thoactes](http://iacebant-dicit.io/manus-coniunx) rates et. Rapto dixit deam
-impetus annis. Dicta mediis me nostrae flumina dementer terga debent firmat
-misit nec roganda antiqui Oedipodioniae. Morte vidisse et nepoti et pugnando,
-nitidumque macies, conamina natas, queruntur debeat.
+## Ports
 
-Vim pati Canenti senex **gratissima Lelex inter** letum mundi multa regni
-uterque, altam. Adhibere periclis; vittae, suis eat iam obstitit pereat rediere
-crevit potest questuque naides.
+To make a simple port of Bennu and the modules, all is needed is the source, SDL, SDL_mixer, autoconf and make. With those, it can be compiled to virtually any platform.
 
-## Sopita patre
+Current official ports:
 
-Lorem markdownum manus lymphata limine Messapiaque media Desine exercet alioque.
-Laborum aquoso dubio, nimiumque examinat medium faciemque posita abactas.
-Inserit reducet de vivitur, quamque horruerant stellas parenti passis arbor
-inquit harenas humilem.
+- Windows
+- Linux
+- GP2X Wiz
+- Caanoo
 
-Memorabile causas quaeris missus; ni deriguitque pati alte frugiferas erat
-trementi formamque littera. Viroque inportuna effigies tales iam venit, gerentem
-tum; per locumque bene dryadas dicit. Tamen inops nubifer, amplexu quo *membra
-Cephisius*, color. Ut quae *nati redituraque Graias* conscelero tum perque
-bimari pudet [est](http://et.net/) ferox. Sunt bucera utrumque vidisset feres.
+Current unofficial ports:
 
-## Positi vimina in gladios
+- Nintendo Wii
+- MacOS X (Intel Only)
+- Haiku OS
+- Open Pandora
+- Playstation Portable
+- Apple iOS (iPhone)
+- Motorola Z6/EM30/E8/EM35/VE66
 
-Corpore iam Diomedeos suam dum ara meritis natus quamvis ergo: pacis viribus.
-Ergo deme vina tellure Alemone an Troia remis hac tabo sparsaque ulterius
-valvae.
+Ports being worked on:
+
+- Android
+- Dingoo Dingux
+- Dreamcast
+- Xbox
+- Playstation 2
+- HTML 5
+- Bennu .NET (Windows Platforms)
