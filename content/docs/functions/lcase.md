@@ -5,7 +5,7 @@ categories:
 - functions
 divlikes:
 - bennugd
-module: mod_
+module: mod_string
 ---
 
 ## Definition
