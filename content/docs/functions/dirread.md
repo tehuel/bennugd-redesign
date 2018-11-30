@@ -13,13 +13,13 @@ module: mod_dir
 
 	STRING dirread ( <INT handle> )
 
-Given a path with wildcards ('*' or '?' characters), returns the first file that matches and, in every next call, all matching files found until no more files exists. It then returns NIL. Presumebly it's somewhat similair to glob.
+Given a path with wildcards (`'*'` or `'?'` characters), returns the first file that matches and, in every next call, all matching files found until no more files exists. It then returns `NIL`. Presumebly it's somewhat similair to [`glob()`]({{< ref "/docs/functions/glob" >}}).
 
 Also you can read multiple directories with different search criteria. This is usefull for filemanagers and dialogboxes, when you only want to list files of a specific type.
 
 ## Parameters
 
-- INT handle - The id of the folder opened with [Diropen](diropen.md).
+- INT handle - The id of the folder opened with [`diropen()`]({{< ref "/docs/functions/diropen" >}}).
 
 ## Returns
 

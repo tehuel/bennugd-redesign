@@ -16,7 +16,7 @@ Removes (deletes) the file specified with filename.
 
 ## Parameters
 
-    STRING filename - The name of the file to be removed (deleted).
+STRING filename - The name of the file to be removed (deleted).
 
 ## Returns
 

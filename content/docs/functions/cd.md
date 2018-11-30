@@ -14,7 +14,7 @@ module: mod_dir
 
 Sets the current path of execution if folder was specified and returns it.
 
-Note that it is highly recommended to use chdir() for changing the current path of execution, as cd() will make Bennu crash when a folder is specified and the returned path of execution is used in the Bennu program. Just using cd() without a folder is not a problem.
+Note that it is highly recommended to use [`chdir()`]({{< ref "/docs/functions/chdir" >}}) for changing the current path of execution, as `cd()` will make Bennu crash when a folder is specified and the returned path of execution is used in the Bennu program. Just using `cd()` without a folder is not a problem.
 
 ## Parameters
 

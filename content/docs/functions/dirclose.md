@@ -12,7 +12,7 @@ module: mod_dir
 
     INT dirclose ( <INT handleId> )
 
-Close a directory using a given handle id obtained with diropen().
+Close a directory using a given handle id obtained with [`diropen()`]({{< ref "/docs/functions/diropen" >}}).
 
 ## Parameters
 

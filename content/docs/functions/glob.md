@@ -12,13 +12,13 @@ module: mod_dir
 
     STRING glob ( <STRING criteria> )
 
-Gets a single filename or directoryname matching the criteria. If the same criteria is specified, it keeps returning new items on subsequent calls until it can't find any more, in which case it returns "". When different criteria are specified, the search is 'reset'. To reset the search without returning an item, use "" as criteria.
+Gets a single filename or directoryname matching the criteria. If the same criteria is specified, it keeps returning new items on subsequent calls until it can't find any more, in which case it returns `""`. When different criteria are specified, the search is _'reset'_. To reset the search without returning an item, use `""` as criteria.
 
-After a call to glob(), the global struct fileinfo is filled with information about the last file/directory entry returned.
+After a call to `glob()`, the global struct fileinfo is filled with information about the last file/directory entry returned.
 
 ## Parameters
 
-STRING criteria - The search criteria to which the returned filenames apply. "" to reset search.
+- STRING criteria - The search criteria to which the returned filenames apply. `""` to reset search.
 
 ## Returns
 
