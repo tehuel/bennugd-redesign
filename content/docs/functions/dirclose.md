@@ -5,15 +5,22 @@ categories:
 - functions
 divlikes:
 - bennugd
-module: mod_
+module: mod_dir
 ---
 
 ## Definition
 
-    dirclose ( )
+    INT dirclose ( <INT handleId> )
+
+Close a directory using a given handle id obtained with diropen().
 
 ## Parameters
 
+INT handleId  - The handle id of a directory.
+
 ## Returns
 
-## Example
+INT : The handle of the opened directory.
+
+- `0` - There was an error.
+- `1` - The directory was closed successfully.

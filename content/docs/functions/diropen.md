@@ -21,6 +21,7 @@ Open a directory for read it, returns handle id.
 
 ## Returns
 
-- (INT) The handle of the opened directory.
-	- 0 There was an error.
-	- >0 The handle of the opened directory.
+(INT) The handle of the opened directory.
+
+- `0` There was an error.
+- `>0` The handle of the opened directory.
