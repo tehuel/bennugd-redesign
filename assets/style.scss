@@ -3,18 +3,21 @@
 
 // Define some base colors
 // $blue: #243946;
-$sand: #c79c5a;
+$sand: #CF9E61;
 $celeste: #586e70;
-$orange: #FD6A02;
+$orange: #C64632;
 
 
 $primary: $sand;
 $info: $celeste;
+$warning: $orange;
 
 // Customize Bulma default styles
 $link: $orange;
 $code: darken($sand, 40%);
 $navbar-height: 3rem;
+$navbar-item-img-max-height: 2rem;
+$footer-background-color: desaturate($sand, 10%);
 $family-primary: "Poppins", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $family-code: "Fira Mono", monospace;
 
