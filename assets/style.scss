@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Poppins|Fira+Mono');
+@import url('https://fonts.googleapis.com/css?family=Rubik|Fira+Mono');
 
 // Define some base colors
 // $blue: #243946;
@@ -18,7 +18,7 @@ $code: darken($sand, 40%);
 $navbar-height: 3rem;
 $navbar-item-img-max-height: 2rem;
 $footer-background-color: desaturate($sand, 10%);
-$family-primary: "Poppins", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-primary: "Rubik", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $family-code: "Fira Mono", monospace;
 
 @import "./assets/bulma/bulma";
