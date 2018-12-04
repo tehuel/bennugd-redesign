@@ -36,19 +36,16 @@ pre {
 	color: $grey-dark;
 }
 
+figure.is-title-image {
+	width: 100%;
+	height: 30vh;
+	overflow: hidden;
+
+	img {
+		object-fit: cover;
+	}
+}
+
 div.news-card {
 	margin-bottom: 2rem;
-
-	figure.is-title-image {
-		width: 100%;
-		height: 30vh;
-		overflow: hidden;
-
-		img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-	}
-
 }
