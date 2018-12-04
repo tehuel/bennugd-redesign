@@ -701,7 +701,7 @@ The already migrated content is marked ~~as this~~.
 -   [Mod mouse](http://wiki.bennugd.org/index.php?title=Mod_mouse "Mod mouse")
 -   [Mod path](http://wiki.bennugd.org/index.php?title=Mod_path "Mod path")
 -   [~~Mod proc~~](http://wiki.bennugd.org/index.php?title=Mod_proc "Mod proc") -> [`mod_proc`]({{< ref "/docs/modules/mod_proc" >}})
--   [~~Mod rand~~](http://wiki.bennugd.org/index.php?title=Mod_rand "Mod rand") -> [`mod_prand]({{< ref "/docs/modules/mod_rand" >}})
+-   [~~Mod rand~~](http://wiki.bennugd.org/index.php?title=Mod_rand "Mod rand") -> [`mod_rand`]({{< ref "/docs/modules/mod_rand" >}})
 -   [Mod regex](http://wiki.bennugd.org/index.php?title=Mod_regex "Mod regex")
 -   [~~Mod say~~](http://wiki.bennugd.org/index.php?title=Mod_say "Mod say") -> [`mod_say`]({{< ref "/docs/modules/mod_say" >}})
 -   [Mod screen](http://wiki.bennugd.org/index.php?title=Mod_screen "Mod screen")
