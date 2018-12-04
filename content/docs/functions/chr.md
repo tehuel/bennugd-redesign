@@ -16,7 +16,7 @@ Returns the character associated with ASCIIvalue.
 
 ## Parameters
 
-BYTE ASCIIvalue - The ASCII value of which the character is wanted.
+- BYTE ASCIIvalue - The ASCII value of which the character is wanted.
 
 ## Returns
 

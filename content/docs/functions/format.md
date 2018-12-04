@@ -19,8 +19,8 @@ Formats nummerical data for use in a string. There are three variants of this fu
 
 ## Parameters
 
-INT str - The number to format.
-FLOAT str - The decimal number to format.
+- INT str - The number to format.
+- FLOAT str - The decimal number to format.
 
 ## Returns
 

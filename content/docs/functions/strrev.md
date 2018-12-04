@@ -16,7 +16,7 @@ Returns a reversed version of a certain string, meaning the characters are in re
 
 ## Parameters
 
-STRING str - The non reversed string.
+- STRING str - The non reversed string.
 
 ## Returns
 

@@ -16,8 +16,8 @@ Compares two strings case-insensitive and returns the result.
 
 ## Parameters
 
-STRING str1 - The first string.
-STRING str2 - The second string, to compare with the first string.
+- STRING str1 - The first string.
+- STRING str2 - The second string, to compare with the first string.
 
 ## Returns
 

@@ -16,8 +16,8 @@ Allows a [process](#)/[function](#) or a range of processes/functions of certain
 
 ## Parameters
 
-INT [processID](#)|[processTypeID](#) - The ProcessID of the process or the ProcessTypeID of the type of processes to send the signal to.
-INT signal  - The [signal](#) that is to be sent to the target process(es).
+- INT [processID](#)|[processTypeID](#) - The ProcessID of the process or the ProcessTypeID of the type of processes to send the signal to.
+- INT signal  - The [signal](#) that is to be sent to the target process(es).
 
 ## Returns
 

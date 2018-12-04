@@ -16,7 +16,7 @@ Returns a string containing a certain float value.
 
 ## Parameters
 
-FLOAT value - The value the returned string will contain.
+- FLOAT value - The value the returned string will contain.
 
 ## Returns
 

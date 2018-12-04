@@ -18,7 +18,7 @@ Returns a [ProcessID](#) of a [process](#) of the specified [ProcessType](#). On
 
 ## Parameters
 
-INT processTypeID - The [ProcessTypeID](#) of the [ProcessType](#) to get the processes' [ProcessID](#) of.
+- INT processTypeID - The [ProcessTypeID](#) of the [ProcessType](#) to get the processes' [ProcessID](#) of.
 
 ## Returns
 

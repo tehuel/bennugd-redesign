@@ -16,7 +16,7 @@ Returns the ASCII value of the first character of the string character.
 
 ## Parameters
 
-STRING character - The string of which the ASCII value of the first character will be returned.
+- STRING character - The string of which the ASCII value of the first character will be returned.
 
 ## Returns
 

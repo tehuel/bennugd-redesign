@@ -20,7 +20,7 @@ Also called `strlen()`.
 
 ## Parameters
 
-STRING str  - The string of which the length will be returned.
+- STRING str  - The string of which the length will be returned.
 
 ## Returns
 

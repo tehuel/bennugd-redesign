@@ -18,7 +18,7 @@ Note that it is highly recommended to use [`chdir()`]({{< ref "/docs/functions/c
 
 ## Parameters
 
-STRING folder - The folder to be entered from the current path of execution or a new path of execution.
+- STRING folder - The folder to be entered from the current path of execution or a new path of execution.
 
 ## Returns
 

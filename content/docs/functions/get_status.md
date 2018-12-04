@@ -16,7 +16,7 @@ Get the current status of a [ProcessID](#). With this, you can check if a proces
 
 ## Parameters
 
-INT processID - The ProcessID signal was send to.
+- INT processID - The ProcessID signal was send to.
 
 ## Returns
 

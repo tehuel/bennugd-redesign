@@ -16,7 +16,6 @@ Returns a subsection of a certain string.
 
 ## Parameters
 
-
 - STRING str - The string of which a subsection will be returned.
 - INT startposition - The position of the first character to be in the subsection.
 - [INT characters] - The number of characters the subsection will hold. Negative values are special; see Notes.

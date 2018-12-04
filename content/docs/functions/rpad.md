@@ -18,8 +18,8 @@ If `length` is smaller or equal to the length of `str`, the returned string is `
 
 ## Parameters
 
-STRING str  - The string to pad (add spaces to).
-INT length  - The minimal length of the returned string.
+- STRING str  - The string to pad (add spaces to).
+- INT length  - The minimal length of the returned string.
 
 ## Returns
 

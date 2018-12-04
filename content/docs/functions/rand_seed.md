@@ -20,8 +20,7 @@ To reset the seeding to its original state, meaning the state before any call to
 
 ## Parameters
 
-
-INT seed  - The seed for the random generator used in `rand()`; 1 to reset.
+- INT seed  - The seed for the random generator used in `rand()`; 1 to reset.
 
 ## Returns
 

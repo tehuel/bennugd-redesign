@@ -16,7 +16,7 @@ Removes (deletes) the directory in the current path of execution with a certain 
 
 ## Parameters
 
-STRING directoryname  - The name of the directory to be removed (deleted).
+- STRING directoryname  - The name of the directory to be removed (deleted).
 
 ## Returns
 

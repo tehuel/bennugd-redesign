@@ -16,7 +16,7 @@ Checks if a [process](#) is alive, using its [processID](#) or checks if there i
 
 ## Parameters
 
-INT processID|processTypeID - The ProcessID of the process or the ProcessTypeID of the type of processes to be checked.
+- INT processID|processTypeID - The ProcessID of the process or the ProcessTypeID of the type of processes to be checked.
 
 ## Returns
 

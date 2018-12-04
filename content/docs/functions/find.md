@@ -16,9 +16,9 @@ Returns the position of the firstly found appearance of a searchstring in str or
 
 ## Parameters
 
-STRING str  - The string in which to search.
-STRING searchstring - The string to search for.
-[INT startposition] - The position at which to start searching. Default is 0.
+- STRING str  - The string in which to search.
+- STRING searchstring - The string to search for.
+- [INT startposition] - The position at which to start searching. Default is 0.
 
 ## Returns
 

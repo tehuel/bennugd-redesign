@@ -16,7 +16,7 @@ Returns a copy of str without leading or ending whitespace (spaces, tabs, linefe
 
 ## Parameters
 
-STRING str  - The string to trim.
+- STRING str  - The string to trim.
 
 ## Returns
 

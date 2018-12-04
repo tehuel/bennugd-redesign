@@ -16,7 +16,7 @@ Returns a string identical to a certain string, with the exception that all uppe
 
 ## Parameters
 
-STRING str  - The string in "normal"-form.
+- STRING str  - The string in "normal"-form.
 
 ## Returns
 
