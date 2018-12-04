@@ -23,7 +23,7 @@ As you can see in the bennu source code `mod_say.c`, the difference is only 1 in
 
 ## Parameters
 
-STRING message  - The message to print on to the console
+- STRING message - The message to print on to the console
 
 ## Returns
 

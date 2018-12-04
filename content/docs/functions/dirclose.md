@@ -16,7 +16,7 @@ Close a directory using a given handle id obtained with [`diropen()`]({{< ref "/
 
 ## Parameters
 
-INT handleId  - The handle id of a directory.
+- INT handleId  - The handle id of a directory.
 
 ## Returns
 

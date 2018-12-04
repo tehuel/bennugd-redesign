@@ -24,9 +24,7 @@ Prints message to stdout (console).
 
 ## Returns
 
-- (INT) `true`
-	- 0 There was an error.
-	- >0 The handle of the opened directory.
+INT - true
 
 ## Example
 

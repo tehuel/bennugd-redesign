@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-    <figure class="image is-title-image">
-        <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+    <figure class="image is-3by1 is-title-image">
+        <img src="{{ .Params.Image | default "/img/placeholder.jpg" | relURL }}" alt="{{ .Title }}">
     </figure>
 
     <div class="section">

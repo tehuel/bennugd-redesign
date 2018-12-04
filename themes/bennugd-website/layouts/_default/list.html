@@ -14,14 +14,14 @@
             <ul>
                 {{ range .Paginator.Pages }}
                     <li>
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        {{ .Render "li" }}
                     </li>
                 {{ end}}
             </ul>
 
+            {{ partial "pagination.html" .Paginator }}
+
         </div>
     </div>
-
-    {{ template "_internal/pagination.html" . }}
 
 {{ end }}

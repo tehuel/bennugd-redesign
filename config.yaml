@@ -1,7 +1,16 @@
 baseURL: https://tehuel.github.io/bennugd-redesign/
 title: BennuGD
 theme: bennugd-website
+paginate: 6
 
 params:
   mainSections:
     - blog
+
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+  page:
+  - HTML
