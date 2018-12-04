@@ -693,7 +693,7 @@ The already migrated content is marked ~~as this~~.
 -   [Mod flic](http://wiki.bennugd.org/index.php?title=Mod_flic "Mod flic")
 -   [Mod grproc](http://wiki.bennugd.org/index.php?title=Mod_grproc "Mod grproc")
 -   [Mod joy](http://wiki.bennugd.org/index.php?title=Mod_joy "Mod joy")
--   [Mod key](http://wiki.bennugd.org/index.php?title=Mod_key "Mod key")
+-   [~~Mod key~~](http://wiki.bennugd.org/index.php?title=Mod_key "Mod key") -> [`mod_key`]({{< ref "/docs/modules/mod_key" >}})
 -   [Mod m7](http://wiki.bennugd.org/index.php?title=Mod_m7 "Mod m7")
 -   [Mod map](http://wiki.bennugd.org/index.php?title=Mod_map "Mod map")
 -   [Mod math](http://wiki.bennugd.org/index.php?title=Mod_math "Mod math")
