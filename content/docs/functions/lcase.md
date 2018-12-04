@@ -10,10 +10,14 @@ module: mod_string
 
 ## Definition
 
-    lcase ( )
+    STRING lcase ( <STRING str> )
+
+Returns a string identical to a certain string, with the exception that all uppercase characters are replaced by their lowercase counterparts.
 
 ## Parameters
 
+STRING str  - The string in "normal"-form.
+
 ## Returns
 
-## Example
+STRING : The string in "lowercase"-form.
