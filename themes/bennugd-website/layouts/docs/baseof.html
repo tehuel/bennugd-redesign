@@ -22,7 +22,7 @@
 
                                 <ul id="search-results-list"></ul>
 
-                                <div id="search-results-noresults" class="notification is-danger">
+                                <div id="search-results-noresults" class="notification is-info">
                                     No results found.
                                 </div>
 
@@ -33,6 +33,9 @@
                             {{ range where .Site.Sections "Type" "docs" }}
 
                                 <ul class="menu-list">
+                                    <li>
+                                        <a href="{{ .Permalink }}">Docs</a>
+                                    </li>
                                     {{ range .Sections }}
                                         <li>
                                             <a href="{{ .Permalink }}">{{ .Title }}</a>
