@@ -131,7 +131,7 @@ The already migrated content is marked ~~as this~~.
 -   [CD PLAYING](http://wiki.bennugd.org/index.php?title=CD_PLAYING "CD PLAYING")
 -   [CD STOPPED](http://wiki.bennugd.org/index.php?title=CD_STOPPED "CD STOPPED")
 -   [CD TRAYEMPTY](http://wiki.bennugd.org/index.php?title=CD_TRAYEMPTY "CD TRAYEMPTY")
--   [CD statuscodes](http://wiki.bennugd.org/index.php?title=CD_statuscodes "CD statuscodes")
+-   [~~CD statuscodes~~](http://wiki.bennugd.org/index.php?title=CD_statuscodes "CD statuscodes") -> [`CD Status Codes`]({{< ref "/docs/constants/cd" >}})
 -   [CHARSET CP850](http://wiki.bennugd.org/index.php?title=CHARSET_CP850 "CHARSET CP850")
 -   [CHARSET ISO8859](http://wiki.bennugd.org/index.php?title=CHARSET_ISO8859 "CHARSET ISO8859")
 -   [COMMA](http://wiki.bennugd.org/index.php?title=COMMA "COMMA")
