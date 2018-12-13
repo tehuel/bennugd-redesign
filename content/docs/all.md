@@ -45,7 +45,7 @@ The already migrated content is marked ~~as this~~.
 -   [Advance](http://wiki.bennugd.org/index.php?title=Advance "Advance")
 -   [Align](http://wiki.bennugd.org/index.php?title=Align "Align")
 -   [Alignment](http://wiki.bennugd.org/index.php?title=Alignment "Alignment")
--   [Alignment modes](http://wiki.bennugd.org/index.php?title=Alignment_modes "Alignment modes")
+-   [~~Alignment modes~~](http://wiki.bennugd.org/index.php?title=Alignment_modes "Alignment modes") -> [`Alignment Modes`]({{< ref "/docs/constants/alignment" >}})
 -   [All sound](http://wiki.bennugd.org/index.php?title=All_sound "All sound")
 -   [All text](http://wiki.bennugd.org/index.php?title=All_text "All text")
 -   [Alloc](http://wiki.bennugd.org/index.php?title=Alloc "Alloc")
