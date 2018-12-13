@@ -118,7 +118,7 @@ The already migrated content is marked ~~as this~~.
 -   [Blit](http://wiki.bennugd.org/index.php?title=Blit "Blit")
 -   [~~Blit flags~~](http://wiki.bennugd.org/index.php?title=Blit_flags "Blit flags") -> [`Blit Flags`]({{< ref "/docs/constants/blit_flags" >}})
 -   [Blur](http://wiki.bennugd.org/index.php?title=Blur "Blur")
--   [Blur modes](http://wiki.bennugd.org/index.php?title=Blur_modes "Blur modes")
+-   [~~Blur modes~~](http://wiki.bennugd.org/index.php?title=Blur_modes "Blur modes") -> [`Blur Modes`]({{< ref "/docs/constants/blur" >}})
 -   [Bnot](http://wiki.bennugd.org/index.php?title=Bnot "Bnot")
 -   [Bor](http://wiki.bennugd.org/index.php?title=Bor "Bor")
 -   [Break](http://wiki.bennugd.org/index.php?title=Break "Break")
