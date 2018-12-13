@@ -506,7 +506,7 @@ The already migrated content is marked ~~as this~~.
 -   [Joy numjoysticks](http://wiki.bennugd.org/index.php?title=Joy_numjoysticks "Joy numjoysticks")
 -   [Joy select](http://wiki.bennugd.org/index.php?title=Joy_select "Joy select")
 -   [Joystick](http://wiki.bennugd.org/index.php?title=Joystick "Joystick")
--   [Joystick constants](http://wiki.bennugd.org/index.php?title=Joystick_constants "Joystick constants")
+-   [~~Joystick constants~~](http://wiki.bennugd.org/index.php?title=Joystick_constants "Joystick constants") -> [`joystick constants`]({{< ref "/docs/constants/joystick" >}})
 -   [K](http://wiki.bennugd.org/index.php?title=K "K")
 -   [Key](http://wiki.bennugd.org/index.php?title=Key "Key")
 -   [Keycodes](http://wiki.bennugd.org/index.php?title=Keycodes "Keycodes")
