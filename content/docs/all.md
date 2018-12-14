@@ -424,7 +424,7 @@ The already migrated content is marked ~~as this~~.
 -   [Get modes](http://wiki.bennugd.org/index.php?title=Get_modes "Get modes")
 -   [Get pixel](http://wiki.bennugd.org/index.php?title=Get_pixel "Get pixel")
 -   [Get point](http://wiki.bennugd.org/index.php?title=Get_point "Get point")
--   [Get real point](http://wiki.bennugd.org/index.php?title=Get_real_point "Get real point")
+-   [~~Get real point~~](http://wiki.bennugd.org/index.php?title=Get_real_point "Get real point") -> [`get_real_point()`]({{< ref "/docs/functions/get_real_point" >}})
 -   [Get rgb](http://wiki.bennugd.org/index.php?title=Get_rgb "Get rgb")
 -   [Get rgba](http://wiki.bennugd.org/index.php?title=Get_rgba "Get rgba")
 -   [Get screen](http://wiki.bennugd.org/index.php?title=Get_screen "Get screen")
