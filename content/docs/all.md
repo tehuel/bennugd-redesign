@@ -193,7 +193,7 @@ The already migrated content is marked ~~as this~~.
 -   [~~Chr~~](http://wiki.bennugd.org/index.php?title=Chr "Chr") -> [`chr()`]({{< ref "/docs/functions/chr" >}})
 -   [Clear screen](http://wiki.bennugd.org/index.php?title=Clear_screen "Clear screen")
 -   [Clone](http://wiki.bennugd.org/index.php?title=Clone "Clone")
--   [Collision](http://wiki.bennugd.org/index.php?title=Collision "Collision")
+-   [~~Collision~~](http://wiki.bennugd.org/index.php?title=Collision "Collision") -> [`collision()`]({{< ref "/docs/functions/collision" >}})
 -   [Collision box](http://wiki.bennugd.org/index.php?title=Collision_box "Collision box")
 -   [Collision circle](http://wiki.bennugd.org/index.php?title=Collision_circle "Collision circle")
 -   [Color](http://wiki.bennugd.org/index.php?title=Color "Color")
