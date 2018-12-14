@@ -195,7 +195,7 @@ The already migrated content is marked ~~as this~~.
 -   [Clone](http://wiki.bennugd.org/index.php?title=Clone "Clone")
 -   [~~Collision~~](http://wiki.bennugd.org/index.php?title=Collision "Collision") -> [`collision()`]({{< ref "/docs/functions/collision" >}})
 -   [~~Collision box~~](http://wiki.bennugd.org/index.php?title=Collision_box "Collision box") -> [`collision_box()`]({{< ref "/docs/functions/collision_box" >}})
--   [Collision circle](http://wiki.bennugd.org/index.php?title=Collision_circle "Collision circle")
+-   [~~Collision circle~~](http://wiki.bennugd.org/index.php?title=Collision_circle "Collision circle") -> [`collision_circle()`]({{< ref "/docs/functions/collision_circle" >}})
 -   [Color](http://wiki.bennugd.org/index.php?title=Color "Color")
 -   [Color Gamuts](http://wiki.bennugd.org/index.php?title=Color_Gamuts "Color Gamuts")
 -   [~~Color depths~~](http://wiki.bennugd.org/index.php?title=Color_depths "Color depths") -> [`Color Depths`]({{< ref "/docs/constants/color_depths" >}})
