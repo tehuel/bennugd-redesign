@@ -414,7 +414,7 @@ The already migrated content is marked ~~as this~~.
 -   [~~Get angle~~](http://wiki.bennugd.org/index.php?title=Get_angle "Get angle") -> [`get_angle()`]({{< ref "/docs/functions/get_angle" >}})
 -   [Get colors](http://wiki.bennugd.org/index.php?title=Get_colors "Get colors")
 -   [Get desktop size](http://wiki.bennugd.org/index.php?title=Get_desktop_size "Get desktop size")
--   [Get dist](http://wiki.bennugd.org/index.php?title=Get_dist "Get dist")
+-   [~~Get dist~~](http://wiki.bennugd.org/index.php?title=Get_dist "Get dist") -> [`get_dist()`]({{< ref "/docs/functions/get_dist" >}})
 -   [Get distx](http://wiki.bennugd.org/index.php?title=Get_distx "Get distx")
 -   [Get disty](http://wiki.bennugd.org/index.php?title=Get_disty "Get disty")
 -   [Get glyph](http://wiki.bennugd.org/index.php?title=Get_glyph "Get glyph")
