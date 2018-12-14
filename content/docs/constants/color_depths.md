@@ -15,6 +15,6 @@ See also [Graph Modes]({{< ref "/docs/constants/graph_modes" >}}).
 
 | Constant | Value | Description |
 |---|---|---|
-| `MODE_8BITS` | 8 | Use a color depth of 8bit. Also called MODE_8BPP. |
-| `MODE_16BITS` | 16 | Use a color depth of 16bit. Also called MODE_16BPP. |
-| `MODE_32BITS` | 32 | Use a color depth of 32bit. Also called MODE_32BPP. |
+| `MODE_8BITS` | 8 | Use a color depth of 8bit. Also called `MODE_8BPP`. |
+| `MODE_16BITS` | 16 | Use a color depth of 16bit. Also called `MODE_16BPP`. |
+| `MODE_32BITS` | 32 | Use a color depth of 32bit. Also called `MODE_32BPP`. |

@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>BennuGD</title>
+<title>{{ .Title }}</title>
 
 {{ $style := resources.Get "style.scss" | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink | relURL }}">
