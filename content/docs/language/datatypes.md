@@ -17,7 +17,7 @@ Datatypes give meaning to data and dictate how a variable acts and reacts. Examp
 - Byte
 - Float
 - Int
-- Pointer
+- [`Pointer`]({{< ref "/docs/language/pointer" >}})
 - Short
 - Sizeof
 - String
