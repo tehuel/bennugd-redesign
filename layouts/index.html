@@ -1,15 +1,27 @@
 {{ define "main" }}
 
-    <div class="hero is-large is-primary">
-        <div class="hero-body has-text-centered">
-            <p class="title is-2">BennuGD</p>
-            <p class="subtitle is-4">A multi-platform div-like videogame programming language</p>
+    <div class="hero is-large is-primary has-carousel">
 
-            <p>
-                <a href="{{ "/downloads" | relURL }}" class="button is-medium is-primary is-inverted is-outlined">Download</a>
-                <a href="{{ "/docs" | relURL }}" class="button is-medium is-primary is-inverted is-outlined">Documentation</a>
-            </p>
+        <div class="hero-carousel carousel-animated carousel-animate-fade" data-autoplay="true">
+            <div class='carousel-container'>
+                {{ range $index, $value := .Params.carousel }}
+                  <div class='carousel-item has-background {{ if eq $index 0 }}is-active{{end}}'>
+                    <img class="is-background" src="{{ $value | relURL }}" alt="" />
+                    {{ . }}
+                  </div>
+                {{ end}}
+            </div>
         </div>
+
+        <div class="hero-body has-text-centered" style="z-index: 0; background-color: rgba(0,0,0,0.6);">
+          <p class="title is-2">BennuGD</p>
+          <p class="subtitle is-4">A multi-platform div-like videogame programming language</p>
+          <p>
+              <a href="{{ "/downloads" | relURL }}" class="button is-medium is-primary is-inverted is-outlined">Download</a>
+              <a href="{{ "/docs" | relURL }}" class="button is-medium is-primary is-inverted is-outlined">Documentation</a>
+          </p>
+        </div>
+
     </div>
 
     <div class="section">
@@ -28,4 +40,16 @@
         </div>
     </div>
 
+{{ end }}
+
+{{ define "last" }}
+
+<!-- Carousel Script -->
+{{ $carouselScript := resources.Get "vendor/bulma-carousel/dist/js/bulma-carousel.js" | resources.Minify | resources.Fingerprint "md5" }}
+<script type="text/javascript" src="{{ $carouselScript.Permalink | relURL }}"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+  var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
+});
+</script>
 {{ end }}
