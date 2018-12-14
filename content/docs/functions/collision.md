@@ -58,11 +58,11 @@ Private
 Begin
 
     // Create the graph for the ship
-    map = new_map(20,20,8);
+    map = map_new(20,20,8);
     map_clear(0,map,rgb(0,255,255));
 
     // Create the graph for the Main process
-    graph = new_map(50,50,8);
+    graph = map_new(50,50,8);
     map_clear(0,graph,rgb(255,255,0));
 
     // Position the main process and create the ship
