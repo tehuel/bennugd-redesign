@@ -16,19 +16,19 @@ Checks if a certain key is being pressed.
 
 ## Parameters
 
-- INT scancode  - The scancode of the key to be checked.
+- INT scancode - The scancode of the key to be checked.
 
 ## Returns
 
-INT : true/false: Whether the key is being pressed.
+INT : `true`/`false`: Whether the key is being pressed.
 
 ## Notes
 
-Take a look at the [scancodes](#) for a complete list.
+Take a look at the [scancodes]({{< ref "/docs/constants/scancodes" >}}) for a complete list.
 
 ## Example
 
-This will output the words LEFT or RIGHT according to the keys you press, or it will quit the program once ESCAPE is pressed.
+This will output the words `LEFT` or `RIGHT` according to the keys you press, or it will quit the program once ESCAPE is pressed.
 
 ```
 Program input_test;
