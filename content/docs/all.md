@@ -411,7 +411,7 @@ The already migrated content is marked ~~as this~~.
 -   [G X CENTER](http://wiki.bennugd.org/index.php?title=G_X_CENTER "G X CENTER")
 -   [G Y CENTER](http://wiki.bennugd.org/index.php?title=G_Y_CENTER "G Y CENTER")
 -   [General](http://wiki.bennugd.org/index.php?title=General "General")
--   [Get angle](http://wiki.bennugd.org/index.php?title=Get_angle "Get angle")
+-   [~~Get angle~~](http://wiki.bennugd.org/index.php?title=Get_angle "Get angle") -> [`get_angle()`]({{< ref "/docs/functions/get_angle" >}})
 -   [Get colors](http://wiki.bennugd.org/index.php?title=Get_colors "Get colors")
 -   [Get desktop size](http://wiki.bennugd.org/index.php?title=Get_desktop_size "Get desktop size")
 -   [Get dist](http://wiki.bennugd.org/index.php?title=Get_dist "Get dist")
