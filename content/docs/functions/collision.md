@@ -24,8 +24,8 @@ When a `processTypeID` is specified, there could be multiple fitting collisions.
 
 INT : The ID of the collided process.
 
-0   - No collision
->0  - The processID of the process colliding with the current process
+- `0 ` - No collision
+- `>0` - The processID of the process colliding with the current process
 
 ## Example
 
