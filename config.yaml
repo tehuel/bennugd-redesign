@@ -1,6 +1,5 @@
 baseURL: https://tehuel.github.io/bennugd-redesign/
 title: BennuGD
-theme: bennugd-website
 paginate: 6
 
 params:

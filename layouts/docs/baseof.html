@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+
+        <div class="section">
+            <div class="container">
+
+                <div class="columns">
+
+                    <div class="column is-3">
+
+                        {{- partial "search.html" . -}}
+
+                        <aside class="menu">
+                            {{ range where .Site.Sections "Type" "docs" }}
+
+                                <ul class="menu-list">
+                                    <li>
+                                        <a href="{{ .Permalink }}">Docs</a>
+                                    </li>
+                                    {{ range .Sections }}
+                                        <li>
+                                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                        </li>
+                                    {{ end}}
+                                </ul>
+
+                            {{ end}}
+                        </aside>
+                    </div>
+
+                    <div class="column is-6">
+
+                        {{- block "content" . }}
+                        {{- end }}
+
+                    </div>
+
+                    <div class="column is-3">
+
+                        {{ .TableOfContents }}
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        {{- partial "footer.html" . -}}
+
+        <!-- Search Script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+        {{ $searchScript := resources.Get "js/search.js" | resources.ExecuteAsTemplate "js/search.js" .  | resources.Minify | resources.Fingerprint "md5" }}
+        <script src="{{ $searchScript.Permalink | relURL }}"></script>
+
+    </body>
+</html>

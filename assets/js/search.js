@@ -1,76 +1,5 @@
-<!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-
-        <div class="section">
-            <div class="container">
-
-                <div class="columns">
-
-                    <div class="column is-3">
-
-                        <div id="search-section">
-                            <div id="search-form" class="field has-addons">
-                                <div class="control">
-                                    <input id="search-input" class="input" type="text" placeholder="Search Docs">
-                                </div>
-                            </div>
-
-                            <div id="search-results-box" class="box" style="max-height: 40%; overflow: hidden; overflow-y: auto; position: absolute; display: none">
-
-                                <ul id="search-results-list"></ul>
-
-                                <div id="search-results-noresults" class="notification is-info">
-                                    No results found.
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <aside class="menu">
-                            {{ range where .Site.Sections "Type" "docs" }}
-
-                                <ul class="menu-list">
-                                    <li>
-                                        <a href="{{ .Permalink }}">Docs</a>
-                                    </li>
-                                    {{ range .Sections }}
-                                        <li>
-                                            <a href="{{ .Permalink }}">{{ .Title }}</a>
-                                        </li>
-                                    {{ end}}
-                                </ul>
-
-                            {{ end}}
-                        </aside>
-                    </div>
-
-                    <div class="column is-6">
-
-                        {{- block "content" . }}
-                        {{- end }}
-
-                    </div>
-
-                    <div class="column is-3">
-
-                        {{ .TableOfContents }}
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        {{- partial "footer.html" . -}}
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
-        <script>
-
 // define some global variables
-let searchDataURL = {{ "index.json" | absURL }};
+let searchDataURL = "{{ "index.json" | absURL }}";
 let searchResultsBox = document.querySelector("#search-results-box");
 let searchResultsList = document.querySelector("#search-results-list");
 let searchResultsAlert = document.querySelector("#search-results-noresults");
@@ -91,6 +20,7 @@ let fuseOptions = {
   ]
 };
 
+// define some utilitary functions
 const hideResultsBox = () => {
     searchResultsBox.style.display = 'none';
 };
@@ -161,6 +91,7 @@ const initializeSearch = () => {
     hideResultsBox();
 }
 
+// initialize search on "DOMContentLoaded"
 document.addEventListener("DOMContentLoaded", function(event) {
     initializeSearch();
     document.querySelector('#search-input').addEventListener("input", function(event){
@@ -174,8 +105,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
     });
 });
 
-
-        </script>
-
-    </body>
-</html>
