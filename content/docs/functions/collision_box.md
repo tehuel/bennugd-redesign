@@ -16,7 +16,9 @@ Checks if a process collided with the process calling `collision_box()`.
 
 When a `processTypeID` is specified, there could be multiple fitting collisions. In this case, `collision_box()` returns a `processID` on each subsequent call, until it returns `0`. This can be reset by use of the `frame;` statement, and in such case, `frame(0);` can be handy.
 
-The diference between `collision_box()` and [`collision()`]({{< ref "/docs/functions/collision" >}}) is that `collision_box()` only checks the distance with the edges of the processes, on the other side `collision()` check pixel by pixel between these processes. Consequently, `collision_box()` is faster, but is more accurate `collision()`.
+The diference between `collision_box()` and [`collision()`]({{< ref "/docs/functions/collision" >}}) is that `collision_box()` only checks the distance with the edges of the processes, on the other side `collision()` check pixel by pixel between these processes. Consequently, `collision_box()` is faster, but less accurate than `collision()`.
+
+See also [`collision()`]({{< ref "/docs/functions/collision" >}}) and [`collision_circle()`]({{< ref "/docs/functions/collision_circle" >}}).
 
 ## Parameters
 
@@ -80,4 +82,4 @@ Begin
 End
 ```
 
-Used in example: [`write_string()`]({{< ref "/docs/functions/write_string" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), [`collision_box()`]({{< ref "/docs/functions/write_string" >}}), [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/functions/map_clear" >}}), [`advance()`]({{< ref "/docs/functions/advance" >}}), [`let_me_alone()`]({{< ref "/docs/functions/let_me_alone" >}}), graph, type
+Used in example: [`write_string()`]({{< ref "/docs/functions/write_string" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), [`collision_box()`]({{< ref "/docs/functions/collision_box" >}}), [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/functions/map_clear" >}}), [`advance()`]({{< ref "/docs/functions/advance" >}}), [`let_me_alone()`]({{< ref "/docs/functions/let_me_alone" >}}), graph, type.

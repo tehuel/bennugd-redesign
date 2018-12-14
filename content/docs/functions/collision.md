@@ -16,6 +16,8 @@ Checks if a process collided with the process calling `collision()`.
 
 When a `processTypeID` is specified, there could be multiple fitting collisions. In this case, `collision()` returns a `processID` on each subsequent call, until it returns `0`. This can be reset by use of the `frame;` statement, and in such case, `frame(0);` can be handy.
 
+See also [`collision_box()`]({{< ref "/docs/functions/collision_box" >}}) and [`collision_circle()`]({{< ref "/docs/functions/collision_circle" >}}).
+
 ## Parameters
 
 - INT processID|processTypeID - The ProcessID of the process or the ProcessTypeID of the type of processes to be checked.
@@ -78,4 +80,4 @@ Begin
 End
 ```
 
-Used in example: [`write_string()`]({{< ref "/docs/functions/write_string" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), [`collision()`]({{< ref "/docs/functions/collision" >}}), [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/functions/map_clear" >}}), [`advance()`]({{< ref "/docs/functions/advance" >}}), [`let_me_alone()`]({{< ref "/docs/functions/let_me_alone" >}}), graph, type
+Used in example: [`write_string()`]({{< ref "/docs/functions/write_string" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), [`collision()`]({{< ref "/docs/functions/collision" >}}), [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/functions/map_clear" >}}), [`advance()`]({{< ref "/docs/functions/advance" >}}), [`let_me_alone()`]({{< ref "/docs/functions/let_me_alone" >}}), graph, type.
