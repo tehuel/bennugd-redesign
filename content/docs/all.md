@@ -1208,7 +1208,7 @@ The already migrated content is marked ~~as this~~.
 -   [Write string](http://wiki.bennugd.org/index.php?title=Write_string "Write string")
 -   [Write var](http://wiki.bennugd.org/index.php?title=Write_var "Write var")
 -   [X](http://wiki.bennugd.org/index.php?title=X "X")
--   [Xadvance](http://wiki.bennugd.org/index.php?title=Xadvance "Xadvance")
+-   [~~Xadvance~~](http://wiki.bennugd.org/index.php?title=Xadvance "Xadvance") -> [`xadvance()`]({{< ref "/docs/functions/xadvance" >}})
 -   [Xgraph](http://wiki.bennugd.org/index.php?title=Xgraph "Xgraph")
 -   [Xor](http://wiki.bennugd.org/index.php?title=Xor "Xor")
 -   [Xput](http://wiki.bennugd.org/index.php?title=Xput "Xput")
