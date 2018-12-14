@@ -1,7 +1,7 @@
 ---
 title: Zombies 2012
 status: released
-date: 2018-06-12
+date: 2009-11-25
 project: game
 image: https://torresbaldi.com/uploads/zombies-2012.png
 author: Torres Baldi studio
