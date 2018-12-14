@@ -16,7 +16,7 @@
                 <ul>
                     <div class="buttons is-centered">
                         {{ range .Params.Downloads }}
-                            <a class="button is-info is-inverted" href="{{ .link }}">
+                            <a class="button is-info is-inverted is-medium" href="{{ .link }}">
                                 {{ .platform | title }} - {{ .version }}
                                 ({{ .size }})
                             </a>
