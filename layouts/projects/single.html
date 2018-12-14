@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+    <figure class="image is-title-image">
+        <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+    </figure>
+
+    <div class="section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-two-thirds-desktop">
+
+                    <h1 class="title">
+                        {{ .Title }}
+                    </h1>
+
+                    <div class="content">
+                        {{ .Content }}
+                    </div>
+
+                    <div class="columns">
+                        <div class="column">
+                            <!-- Project Info -->
+                            <div class="panel">
+                                <p class="panel-heading">Details</p>
+                                <div class="panel-block">
+                                    <strong>Author</strong>:
+                                    {{ .Params.author }}</a>
+                                </div>
+                                <div class="panel-block">
+                                    <strong>Type</strong>:
+                                    {{ .Params.project }}
+                                </div>
+                                <div class="panel-block">
+                                    <strong>Status</strong>:
+                                    {{ .Params.status }}
+                                </div>
+                                <div class="panel-block">
+                                    <strong>Date</strong>:
+                                    {{ dateFormat "Jan 2, 2006" .Params.date }}
+                                </div>
+                                <div class="panel-block">
+                                    <strong>Tags</strong>:
+                                    {{ .Params.tags | jsonify }}
+                                </div>
+                                <div class="panel-block">
+                                    <strong>Website</strong>:
+                                    <a href="{{ .Params.website.url }}" target="_blank">{{ .Params.website.name }}</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <!-- Project Downloads -->
+                            <nav class="panel">
+                                <p class="panel-heading">
+                                    Downloads
+                                </p>
+                                {{ range .Params.downloads }}
+                                    <a class="panel-block" href="{{ .url | relURL }}" title="{{ .url | relURL }}">
+                                        <strong>{{ .platform }}</strong>
+                                        &nbsp;- version {{ .version }}
+                                        ({{ .size }})
+                                    </a>
+                                {{ end }}
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+{{ end }}
+
