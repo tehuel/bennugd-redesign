@@ -22,6 +22,7 @@ $family-primary: "Rubik", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
 $family-code: "Fira Mono", monospace;
 
 @import "./assets/vendor/bulma/bulma";
+@import "./assets/vendor/bulma-carousel/dist/css/bulma-carousel";
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $family-code;
