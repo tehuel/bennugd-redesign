@@ -87,7 +87,7 @@ Public // Declare public variables here
 Private // Declare private variables here
     int speed;
 Begin // Start the main processcode
-    graph = new_map(20,20,8);
+    graph = map_new(20,20,8);
     map_clear(0,graph,rgb(0,255,255));
     Loop
         speed+=key(_up)*(speed<maxspeed)-key(_down)*(speed>-maxspeed);
@@ -96,7 +96,7 @@ Begin // Start the main processcode
         frame;
     End
 OnExit // Start the exit code
-    unload_map(0,graph);
+    map_unload(0,graph);
 End // End the main processcode
 Now one can call this process for example by doing the following.
 
@@ -110,7 +110,7 @@ Begin
 End
 ```
 
-Used in example: new_map(), map_clear(), key(), advance(), unload_map(), let_me_alone(), Process, Begin, End, Loop, Repeat, graph, angle
+Used in example: [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/functions/map_clear" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), [`advance()`]({{< ref "/docs/functions/advance" >}}), [`map_unload()`]({{< ref "/docs/functions/map_unload" >}}),[`let_me_alone()`]({{< ref "/docs/functions/let_me_alone" >}}), Process, Begin, End, Loop, Repeat, [graph]({{< ref "/docs/variables/graph" >}}), angle
 
 And when the `SpaceShip` process ends - because the code of it reached the End or something sent an `s_kill` signal - the `OnExit` code starts. In this example it will unload the memory used for the created graphic. If there is no `OnExit` code, the process will just end.
 

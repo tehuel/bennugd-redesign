@@ -31,4 +31,4 @@ Begin
 End
 ```
 
-Used in example: [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/functions/map_clear" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), graphic, x, y
+Used in example: [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/functions/map_clear" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), graph, x, y
