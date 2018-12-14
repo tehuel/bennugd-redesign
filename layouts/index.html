@@ -40,6 +40,24 @@
         </div>
     </div>
 
+    <div class="hero is-medium is-dark">
+        <div class="hero-body has-text-centered">
+            <h2 class="title">Projects Showcase</h2>
+            <div class="columns is-multiline is-centered">
+                {{ range first 2 (where .Site.RegularPages "Type" "in" "projects") }}
+                    <div class="column is-half">
+                        {{ .Render "li" }}
+                    </div>
+                {{ end}}
+            </div>
+            <div class="container">
+                <p class="has-text-right">
+                    <a href="{{ "/projects" | relURL }}" class="button is-info">view all projects &raquo;</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
 {{ end }}
 
 {{ define "last" }}

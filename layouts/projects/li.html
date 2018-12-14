@@ -1,0 +1,9 @@
+<div class="card" style="margin-bottom: 1rem; background-color: transparent;">
+    <div class="card-image">
+        <a href="{{ .Permalink }}">
+            <figure class="image is-2by1 is-title-image">
+                <img src="{{ .Params.Image | default "/img/placeholder.jpg" | relURL }}" alt="{{ .Title }}">
+            </figure>
+        </a>
+    </div>
+</div>
