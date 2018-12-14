@@ -8,8 +8,8 @@ The already migrated content is marked ~~as this~~.
 
 # Complete list
 
--   [&](http://wiki.bennugd.org/index.php?title=%26 "&")
--   [*](http://wiki.bennugd.org/index.php?title=* "*")
+-   [~~&~~](http://wiki.bennugd.org/index.php?title=%26 "&") -> [`Pointer`]({{< ref "/docs/language/pointer" >}})
+-   [~~*~~](http://wiki.bennugd.org/index.php?title=* "*") -> [`Pointer`]({{< ref "/docs/language/pointer" >}})
 -   [0](http://wiki.bennugd.org/index.php?title=0 "0")
 -   [0.84a](http://wiki.bennugd.org/index.php?title=0.84a "0.84a")
 -   [0.92](http://wiki.bennugd.org/index.php?title=0.92 "0.92")
@@ -909,7 +909,7 @@ The already migrated content is marked ~~as this~~.
 -   [Point](http://wiki.bennugd.org/index.php?title=Point "Point")
 -   [Point get](http://wiki.bennugd.org/index.php?title=Point_get "Point get")
 -   [Point set](http://wiki.bennugd.org/index.php?title=Point_set "Point set")
--   [Pointer](http://wiki.bennugd.org/index.php?title=Pointer "Pointer")
+-   [~~Pointer~~](http://wiki.bennugd.org/index.php?title=Pointer "Pointer") -> [`Pointer`]({{< ref "/docs/language/pointer" >}})
 -   [Pow](http://wiki.bennugd.org/index.php?title=Pow "Pow")
 -   [Precompiler](http://wiki.bennugd.org/index.php?title=Precompiler "Precompiler")
 -   [Precompiler define](http://wiki.bennugd.org/index.php?title=Precompiler_define "Precompiler define")
