@@ -11,9 +11,9 @@ A *text* is a text written on screen with texts functions, like [`write()`]({{< 
 
 There are two kinds of texts:
 
-- Static text is any text written with [`write()`]({{< ref "/docs/functions/write" >}}); it is static, because the content of the text cannot be changed after writing, but the text can be moved and deleted.
+- **Static text** is any text written with [`write()`]({{< ref "/docs/functions/write" >}}); it is static, because the content of the text cannot be changed after writing, but the text can be moved and deleted.
 
-- Dynamic text is any text written with `write_xxx()` functions; it is dynamic because the content of the text always reflects the current value of the variable specified. Of course moving and deleting is also possible.
+- **Dynamic text** is any text written with `write_xxx()` functions; it is dynamic because the content of the text always reflects the current value of the variable specified. Of course moving and deleting is also possible.
 
 ## Writing Texts
 
@@ -25,6 +25,8 @@ There are multiple ways to write texts: the [`write()`]({{< ref "/docs/functions
 - The global variable `text_flags`
 
 Also the function [`move_text()`]({{< ref "/docs/functions/move_text" >}}) can be handy, as it moves a previously written text to a different location.
+
+## Example
 
 ```
 Program texts;

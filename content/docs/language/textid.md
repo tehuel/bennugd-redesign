@@ -13,8 +13,10 @@ When a dynamic text is created, it has the color last set by [`set_text_color()`
 
 To move the dynamic text associated with a TextID, use [`move_text()`]({{< ref "/docs/functions/move_text" >}}). To delete the text, use [`delete_text()`]({{< ref "/docs/functions/delete_text" >}}).
 
+## Notes
+
 There can be a total of 512 dynamic texts on screen simultaneously.
 
-See Also
+## See Also
 
 - [Text]({{< ref "/docs/language/text" >}})
