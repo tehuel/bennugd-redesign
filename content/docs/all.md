@@ -1080,7 +1080,7 @@ The already migrated content is marked ~~as this~~.
 -   [Set point](http://wiki.bennugd.org/index.php?title=Set_point "Set point")
 -   [Set position](http://wiki.bennugd.org/index.php?title=Set_position "Set position")
 -   [Set song volume](http://wiki.bennugd.org/index.php?title=Set_song_volume "Set song volume")
--   [Set text color](http://wiki.bennugd.org/index.php?title=Set_text_color "Set text color")
+-   [~~Set text color~~](http://wiki.bennugd.org/index.php?title=Set_text_color "Set text color") -> [`set_text_color()`]({{< ref "/docs/functions/set_text_color" >}})
 -   [Set title](http://wiki.bennugd.org/index.php?title=Set_title "Set title")
 -   [Set window pos](http://wiki.bennugd.org/index.php?title=Set_window_pos "Set window pos")
 -   [Setting up Bennu](http://wiki.bennugd.org/index.php?title=Setting_up_Bennu "Setting up Bennu")
