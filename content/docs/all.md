@@ -1193,7 +1193,7 @@ The already migrated content is marked ~~as this~~.
 -   [WIP](http://wiki.bennugd.org/index.php?title=WIP "WIP")
 -   [WaveID](http://wiki.bennugd.org/index.php?title=WaveID "WaveID")
 -   [While](http://wiki.bennugd.org/index.php?title=While "While")
--   [Windgate's tutorial](http://wiki.bennugd.org/index.php?title=Windgate%27s_tutorial "Windgate's tutorial")
+-   [~~Windgate's tutorial~~](http://wiki.bennugd.org/index.php?title=Windgate%27s_tutorial "Windgate's tutorial") -> [`Guides/Windgate's Tutorial`]({{< ref "/docs/guides/windgate-tutorial" >}})
 -   [Window status](http://wiki.bennugd.org/index.php?title=Window_status "Window status")
 -   [Word](http://wiki.bennugd.org/index.php?title=Word "Word")
 -   [Wpad info](http://wiki.bennugd.org/index.php?title=Wpad_info "Wpad info")
