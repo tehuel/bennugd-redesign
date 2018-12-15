@@ -7,7 +7,7 @@ divlikes:
 - bennugd
 ---
 
-Alignment modes are modes which indicate how a graphic or text will be aligned relative to its center.
+Alignment modes are modes which indicate how a graphic or [text]({{< ref "/docs/language/text" >}}) will be aligned relative to its center.
 
 ## List
 
