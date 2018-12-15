@@ -20,7 +20,7 @@ This function is also known as `map_info()` and `map_info_get()`.
 
 - INT fileID - The file that holds the graph.
 - INT graphID - The graph to get information from.
-- INT infotype - What type of information you want. Refer to [`Graphical Infotypes`]({{< ref "/docs/constants/graphical_infotypes" >}}).
+- INT infotype - What type of information you want. Refer to [Graphical Infotypes]({{< ref "/docs/constants/graphical_infotypes" >}}).
 
 ## Returns
 
