@@ -1148,7 +1148,7 @@ The already migrated content is marked ~~as this~~.
 -   [TTF LoadAA](http://wiki.bennugd.org/index.php?title=TTF_LoadAA "TTF LoadAA")
 -   [Tan](http://wiki.bennugd.org/index.php?title=Tan "Tan")
 -   [Templates](http://wiki.bennugd.org/index.php?title=Templates "Templates")
--   [Text](http://wiki.bennugd.org/index.php?title=Text "Text")
+-   [~~Text~~](http://wiki.bennugd.org/index.php?title=Text "Text") -> [Language/Text]({{< ref "/docs/language/text" >}})
 -   [TextID](http://wiki.bennugd.org/index.php?title=TextID "TextID")
 -   [Text flags](http://wiki.bennugd.org/index.php?title=Text_flags "Text flags")
 -   [Text height](http://wiki.bennugd.org/index.php?title=Text_height "Text height")
