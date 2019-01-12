@@ -1,6 +1,5 @@
 +++
-categories = ["functions"]
-divlikes = ["bennugd"]
+categories = ["functions", "math"]
 layout = "function"
 module = "mod_math"
 title = "fget_angle()"

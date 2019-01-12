@@ -1,6 +1,5 @@
 +++
 categories = ["functions"]
-divlikes = ["bennugd"]
 layout = "function"
 module = "mod_proc"
 title = "get_id()"

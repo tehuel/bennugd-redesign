@@ -1,6 +1,5 @@
 +++
 categories = ["general"]
-divlikes = ["bennugd"]
 title = "Ports"
 
 +++

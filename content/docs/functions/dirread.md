@@ -1,6 +1,5 @@
 +++
 categories = ["functions", "files"]
-divlikes = ["bennugd"]
 layout = "function"
 module = "mod_dir"
 title = "dirread()"

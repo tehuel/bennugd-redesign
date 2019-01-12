@@ -1,6 +1,5 @@
 +++
 categories = ["functions"]
-divlikes = ["bennugd"]
 layout = "function"
 module = "mod_joy"
 title = "get_joy_position()"

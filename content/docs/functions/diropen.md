@@ -1,6 +1,5 @@
 +++
 categories = ["functions", "files"]
-divlikes = ["bennugd"]
 layout = "function"
 module = "mod_dir"
 title = "diropen()"
@@ -9,7 +8,7 @@ title = "diropen()"
 
 ## Definition
 
-	INT diropen ( <STRING folder> )
+    INT diropen ( <STRING folder> )
 
 Open a directory for read it, returns handle id.
 

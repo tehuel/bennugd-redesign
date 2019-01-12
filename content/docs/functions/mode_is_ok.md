@@ -1,6 +1,5 @@
 +++
 categories = ["functions"]
-divlikes = ["bennugd"]
 layout = "function"
 module = "mod_video"
 title = "mode_is_ok()"

@@ -1,6 +1,5 @@
 +++
 categories = ["functions", "debug"]
-divlikes = ["bennugd"]
 layout = "function"
 module = "mod_say"
 title = "say()"
@@ -9,7 +8,7 @@ title = "say()"
 
 ## Definition
 
-	INT say ( <STRING message> )
+    INT say ( <STRING message> )
 
 Prints message to stdout (console).
 

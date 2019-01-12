@@ -1,6 +1,5 @@
 +++
 categories = ["functions"]
-divlikes = ["bennugd"]
 layout = "function"
 module = "mod_path"
 title = "path_getxy()"

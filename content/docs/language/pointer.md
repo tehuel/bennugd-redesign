@@ -1,6 +1,5 @@
 +++
 categories = ["general", "language", "datatypes"]
-divlikes = ["bennugd"]
 title = "Pointer"
 
 +++

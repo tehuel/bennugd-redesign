@@ -1,6 +1,5 @@
 +++
 categories = ["general", "language"]
-divlikes = ["bennugd"]
 title = "Text"
 
 +++

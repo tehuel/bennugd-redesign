@@ -1,6 +1,5 @@
 +++
 categories = ["variables", "global"]
-divlikes = ["bennugd"]
 layout = "variable"
 title = "shift_status"
 

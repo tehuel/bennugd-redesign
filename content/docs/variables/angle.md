@@ -1,6 +1,5 @@
 +++
 categories = ["variables", "local"]
-divlikes = ["bennugd"]
 layout = "variable"
 title = "angle"
 

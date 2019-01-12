@@ -1,7 +1,6 @@
 +++
 aliases = ["/docs/functions/strlen"]
 categories = ["functions"]
-divlikes = ["bennugd"]
 layout = "function"
 module = "mod_string"
 title = "len()"

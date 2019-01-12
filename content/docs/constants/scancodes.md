@@ -1,6 +1,5 @@
 +++
 categories = ["constants"]
-divlikes = ["bennugd"]
 layout = "constant"
 modules = ["mod_key"]
 title = "Scancodes"

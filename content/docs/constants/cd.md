@@ -1,6 +1,5 @@
 +++
 categories = ["constants"]
-divlikes = ["bennugd"]
 layout = "constant"
 module = "mod_cd"
 title = "CD Status Codes"

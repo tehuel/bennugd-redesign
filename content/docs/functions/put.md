@@ -1,6 +1,5 @@
 +++
 categories = ["functions", "screen", "drawing"]
-divlikes = ["bennugd"]
 layout = "function"
 module = "mod_screen"
 title = "put()"

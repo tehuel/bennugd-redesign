@@ -1,6 +1,5 @@
 +++
 categories = ["guide", "tutorial"]
-divlikes = ["bennugd"]
 title = "Windgate's Tutorial"
 
 +++
