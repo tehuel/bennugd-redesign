@@ -1,11 +1,13 @@
 +++
-
 title = "Bennu Game Development"
-[carousel]
-  show = true
-  images = ["img/placeholder.jpg", "img/explosive-dinosaurs-giveaway.jpg", "img/jarl.png"]
+
 [blog]
   show = true
+
+[carousel]
+  images = ["img/placeholder.jpg", "img/explosive-dinosaurs-giveaway.jpg", "img/jarl.png"]
+  show = true
+
 [projects]
   show = false
 
