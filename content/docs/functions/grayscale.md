@@ -1,12 +1,11 @@
----
-title: grayscale()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_effects
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_effects"
+title = "grayscale()"
+
++++
 
 ## Definition
 

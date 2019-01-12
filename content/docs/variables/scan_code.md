@@ -1,12 +1,10 @@
----
-title: scan_code
-layout: variable
-categories:
-- variables
-- global
-divlikes:
-- bennugd
----
++++
+categories = ["variables", "global"]
+divlikes = ["bennugd"]
+layout = "variable"
+title = "scan_code"
+
++++
 
 ## Definition
 

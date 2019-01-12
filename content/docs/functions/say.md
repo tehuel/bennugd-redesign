@@ -1,13 +1,11 @@
----
-title: say()
-layout: function
-categories:
-- functions
-- debug
-divlikes:
-- bennugd
-module: mod_say
----
++++
+categories = ["functions", "debug"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_say"
+title = "say()"
+
++++
 
 ## Definition
 

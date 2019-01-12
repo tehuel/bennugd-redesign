@@ -1,12 +1,11 @@
----
-title: cd_stop()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_cd
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_cd"
+title = "cd_stop()"
+
++++
 
 ## Definition
 

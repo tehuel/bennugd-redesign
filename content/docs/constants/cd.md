@@ -1,12 +1,11 @@
----
-title: CD Status Codes
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
-module: mod_cd
----
++++
+categories = ["constants"]
+divlikes = ["bennugd"]
+layout = "constant"
+module = "mod_cd"
+title = "CD Status Codes"
+
++++
 
 CD statuscodes are status codes returned by the function [`cd_status()`]({{< ref "/docs/functions/cd_status" >}}), to specify the current status of a CD drive.
 

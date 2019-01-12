@@ -1,12 +1,11 @@
----
-title: split()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_regex
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_regex"
+title = "split()"
+
++++
 
 ## Definition
 

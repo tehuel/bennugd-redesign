@@ -1,10 +1,9 @@
----
-title: mod_mem
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_mem"
+
++++
 
 Memory module.

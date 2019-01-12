@@ -1,12 +1,11 @@
----
-title: draw_circle()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_draw
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_draw"
+title = "draw_circle()"
+
++++
 
 ## Definition
 

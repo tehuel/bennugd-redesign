@@ -1,12 +1,11 @@
----
-title: get_joy_position()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_joy
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_joy"
+title = "get_joy_position()"
+
++++
 
 ## Definition
 

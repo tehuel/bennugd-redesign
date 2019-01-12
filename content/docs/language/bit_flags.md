@@ -1,11 +1,9 @@
----
-title: Bit Flags
-categories:
-- general
-- language
-divlikes:
-- bennugd
----
++++
+categories = ["general", "language"]
+divlikes = ["bennugd"]
+title = "Bit Flags"
+
++++
 
 Bit flags are constants which each denotes a single unique case in one situation and can be combined to form different, unique cases.
 

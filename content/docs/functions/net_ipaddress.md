@@ -1,12 +1,11 @@
----
-title: net_ipaddress()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_"
+title = "net_ipaddress()"
+
++++
 
 ## Definition
 

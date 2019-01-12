@@ -1,10 +1,9 @@
----
-title: "Impetus pinguia Tyndaridae ferrea"
-date: 2017-12-20
-image:
-categories:
-  - games
----
++++
+categories = ["games"]
+date = "2017-12-20"
+title = "Impetus pinguia Tyndaridae ferrea"
+
++++
 
 ## Ut sibi
 

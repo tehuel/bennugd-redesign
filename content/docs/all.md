@@ -1,6 +1,7 @@
----
-title: All BennuGD Wiki Pages
----
++++
+title = "All BennuGD Wiki Pages"
+
++++
 
 This is a list of all of the current bennu wiki pages, taken from [here](http://wiki.bennugd.org/index.php?title=Special:AllPages).
 

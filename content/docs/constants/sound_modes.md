@@ -1,11 +1,10 @@
----
-title: Sound Modes
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+divlikes = ["bennugd"]
+layout = "constant"
+title = "Sound Modes"
+
++++
 
 Sound modes are used to set the sound mode, by assigning one of them to the global variable `sound_mode`.
 

@@ -1,12 +1,11 @@
----
-title: collision_box()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_grproc
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_grproc"
+title = "collision_box()"
+
++++
 
 ## Definition
 

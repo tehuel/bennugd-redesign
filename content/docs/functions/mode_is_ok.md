@@ -1,12 +1,11 @@
----
-title: mode_is_ok()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_video
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_video"
+title = "mode_is_ok()"
+
++++
 
 ## Definition
 

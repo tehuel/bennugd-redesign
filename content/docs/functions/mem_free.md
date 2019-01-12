@@ -1,12 +1,11 @@
----
-title: mem_free()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_mem
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_mem"
+title = "mem_free()"
+
++++
 
 ## Definition
 

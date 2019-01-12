@@ -1,12 +1,11 @@
----
-title: fnt_new()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_map
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_map"
+title = "fnt_new()"
+
++++
 
 ## Definition
 

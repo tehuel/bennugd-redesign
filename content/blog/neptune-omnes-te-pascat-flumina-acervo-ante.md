@@ -1,10 +1,9 @@
----
-title: "Neptune omnes te pascat flumina acervo ante"
-date: 2018-02-24
-image:
-categories:
-  - games
----
++++
+categories = ["games"]
+date = "2018-02-24"
+title = "Neptune omnes te pascat flumina acervo ante"
+
++++
 
 # Tamen coeamus et cruribus pinea
 

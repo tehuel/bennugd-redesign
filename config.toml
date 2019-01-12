@@ -1,0 +1,19 @@
+baseURL = "https://tehuel.github.io/bennugd-redesign/"
+title = "BennuGD"
+paginate = 6
+theme = "divhub-website-theme"
+
+[params]
+  mainSections = ["blog"]
+  repository = "https://github.com/tehuel/bennugd-redesign/"
+  tagline = "A multi-platform div-like videogame programming language."
+  logo = "img/logo.png"
+  logo_small = "img/logo.png"
+  [params.colors]
+    primary = "#CF9E61"
+    info = "#586e70"
+    warning = "#C64632"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]

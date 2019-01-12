@@ -1,13 +1,11 @@
----
-title: diropen()
-layout: function
-categories:
-- functions
-- files
-divlikes:
-- bennugd
-module: mod_dir
----
++++
+categories = ["functions", "files"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_dir"
+title = "diropen()"
+
++++
 
 ## Definition
 

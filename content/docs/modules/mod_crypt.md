@@ -1,10 +1,9 @@
----
-title: mod_crypt
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_crypt"
+
++++
 
 Encryption/decryption module for the encryption and decryption of data.

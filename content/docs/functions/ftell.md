@@ -1,12 +1,11 @@
----
-title: ftell()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_file
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_file"
+title = "ftell()"
+
++++
 
 ## Definition
 

@@ -1,12 +1,11 @@
----
-title: set_fps()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_video
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_video"
+title = "set_fps()"
+
++++
 
 ## Definition
 

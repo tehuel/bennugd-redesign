@@ -1,11 +1,10 @@
----
-title: Render Flags
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+divlikes = ["bennugd"]
+layout = "constant"
+title = "Render Flags"
+
++++
 
 Render flags are [bit flags]({{< ref "/docs/language/bit_flags" >}}) used to specify the mode of rendering, by passing them to the function [`set_mode()`]({{< ref "/docs/functions/set_mode" >}}) as the flags parameter. Multiple render flags can be specified using "`|`" (pipe character) for separation.
 

@@ -1,12 +1,11 @@
----
-title: key()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_key
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_key"
+title = "key()"
+
++++
 
 ## Definition
 

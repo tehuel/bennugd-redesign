@@ -1,12 +1,11 @@
----
-title: map_put_pixel()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_map
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_map"
+title = "map_put_pixel()"
+
++++
 
 ## Definition
 

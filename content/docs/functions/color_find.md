@@ -1,12 +1,11 @@
----
-title: color_find()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_map
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_map"
+title = "color_find()"
+
++++
 
 ## Definition
 

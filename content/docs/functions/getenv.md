@@ -1,12 +1,11 @@
----
-title: getenv()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_sys
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_sys"
+title = "getenv()"
+
++++
 
 ## Definition
 

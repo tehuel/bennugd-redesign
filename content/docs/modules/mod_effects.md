@@ -1,10 +1,9 @@
----
-title: mod_effects
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_effects"
+
++++
 
 Graphical effects module, adding effects applicable to graphics.

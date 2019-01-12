@@ -1,12 +1,11 @@
----
-title: dirclose()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_dir
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_dir"
+title = "dirclose()"
+
++++
 
 ## Definition
 

@@ -1,11 +1,9 @@
----
-title: TextID
-categories:
-- general
-- language
-divlikes:
-- bennugd
----
++++
+categories = ["general", "language"]
+divlikes = ["bennugd"]
+title = "TextID"
+
++++
 
 `TextID` is an identifier associated with a certain text. It is returned by various text functions, like [`write()`]({{< ref "/docs/functions/write" >}}), [`write_int()`]({{< ref "/docs/functions/write_int" >}}), [`write_string()`]({{< ref "/docs/functions/write_string" >}}), [`write_float()`]({{< ref "/docs/functions/write_float" >}}) and [`move_text()`]({{< ref "/docs/functions/move_text" >}}).
 

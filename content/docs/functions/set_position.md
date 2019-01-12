@@ -1,12 +1,11 @@
----
-title: set_position()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_sound
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_sound"
+title = "set_position()"
+
++++
 
 ## Definition
 

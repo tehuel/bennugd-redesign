@@ -1,12 +1,11 @@
----
-title: get_angle()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_grproc
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_grproc"
+title = "get_angle()"
+
++++
 
 ## Definition
 

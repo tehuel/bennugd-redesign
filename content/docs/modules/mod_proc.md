@@ -1,10 +1,9 @@
----
-title: mod_proc
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_proc"
+
++++
 
 Process interaction and manipulation module.

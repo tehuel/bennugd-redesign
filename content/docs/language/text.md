@@ -1,11 +1,9 @@
----
-title: Text
-categories:
-- general
-- language
-divlikes:
-- bennugd
----
++++
+categories = ["general", "language"]
+divlikes = ["bennugd"]
+title = "Text"
+
++++
 
 A *text* is a text written on screen with texts functions, like [`write()`]({{< ref "/docs/functions/write" >}}) or [`write_int()`]({{< ref "/docs/functions/write_int" >}}). A text is addressed using the associated [`TextID`]({{< ref "/docs/language/textid" >}}).
 

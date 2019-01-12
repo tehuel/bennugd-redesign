@@ -1,11 +1,10 @@
----
-title: Coordinate Types
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+divlikes = ["bennugd"]
+layout = "constant"
+title = "Coordinate Types"
+
++++
 
 Coordinatetype modes are used to set the type of coordinatesytem to be used, by assigning them to the local variable ctype. Different coordinatesystems have different ways of interpreting the coordinates of a process. There's another local variable which influences the interpretation of a process' coordinate, which is resolution.
 

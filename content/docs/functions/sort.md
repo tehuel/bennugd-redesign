@@ -1,12 +1,11 @@
----
-title: sort()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_sort
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_sort"
+title = "sort()"
+
++++
 
 ## Definition
 

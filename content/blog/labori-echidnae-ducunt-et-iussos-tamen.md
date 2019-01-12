@@ -1,10 +1,9 @@
----
-title: "Labori echidnae ducunt et iussos tamen"
-date: 2018-02-02
-image:
-categories:
-  - games
----
++++
+categories = ["games"]
+date = "2018-02-02"
+title = "Labori echidnae ducunt et iussos tamen"
+
++++
 
 ## Animos ergo iungit iuvenis et manus de
 

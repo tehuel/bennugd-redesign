@@ -1,10 +1,9 @@
----
-title: mod_regex
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_regex"
+
++++
 
 Regular expressions module.

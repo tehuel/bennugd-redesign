@@ -1,12 +1,11 @@
----
-title: file()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_file
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_file"
+title = "file()"
+
++++
 
 ## Definition
 

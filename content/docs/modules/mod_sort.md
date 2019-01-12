@@ -1,10 +1,9 @@
----
-title: mod_sort
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_sort"
+
++++
 
 Sorting module.

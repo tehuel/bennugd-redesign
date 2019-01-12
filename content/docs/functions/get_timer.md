@@ -1,12 +1,11 @@
----
-title: get_timer()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_time
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_time"
+title = "get_timer()"
+
++++
 
 ## Definition
 

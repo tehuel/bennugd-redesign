@@ -1,12 +1,11 @@
----
-title: net_stat_buffer()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_"
+title = "net_stat_buffer()"
+
++++
 
 ## Definition
 

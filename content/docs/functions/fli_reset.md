@@ -1,12 +1,11 @@
----
-title: fli_reset()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_flic
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_flic"
+title = "fli_reset()"
+
++++
 
 ## Definition
 

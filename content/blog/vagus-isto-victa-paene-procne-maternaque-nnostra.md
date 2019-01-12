@@ -1,10 +1,9 @@
----
-title: "Vagus isto victa paene Procne maternaque nostra"
-date: 2018-11-12
-image:
-categories:
-  - games
----
++++
+categories = ["games"]
+date = "2018-11-12"
+title = "Vagus isto victa paene Procne maternaque nostra"
+
++++
 
 ## Ut sibi
 

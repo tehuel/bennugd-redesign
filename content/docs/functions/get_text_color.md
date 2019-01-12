@@ -1,12 +1,11 @@
----
-title: get_text_color()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_text
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_text"
+title = "get_text_color()"
+
++++
 
 ## Definition
 

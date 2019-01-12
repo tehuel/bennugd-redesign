@@ -1,10 +1,9 @@
----
-title: mod_rand
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_rand"
+
++++
 
 Random number generator module.

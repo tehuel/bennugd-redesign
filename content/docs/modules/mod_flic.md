@@ -1,10 +1,9 @@
----
-title: mod_flic
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_flic"
+
++++
 
 FLIC module.

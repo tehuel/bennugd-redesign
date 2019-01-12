@@ -1,12 +1,11 @@
----
-title: joy_axes()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_joy
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_joy"
+title = "joy_axes()"
+
++++
 
 ## Definition
 

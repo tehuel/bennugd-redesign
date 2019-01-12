@@ -1,12 +1,11 @@
----
-title: exists()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_proc
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_proc"
+title = "exists()"
+
++++
 
 ## Definition
 

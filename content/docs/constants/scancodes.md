@@ -1,13 +1,11 @@
----
-title: Scancodes
-layout: constant
-categories:
-- constants
-modules:
-- mod_key
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+divlikes = ["bennugd"]
+layout = "constant"
+modules = ["mod_key"]
+title = "Scancodes"
+
++++
 
 Scancodes are used to identify keys. This is used in the function [`key()`]({{< ref "/docs/functions/key" >}}) and the global variable `scan_code`.
 

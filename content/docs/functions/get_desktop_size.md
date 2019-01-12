@@ -1,12 +1,11 @@
----
-title: get_desktop_size()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_wm
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_wm"
+title = "get_desktop_size()"
+
++++
 
 ## Definition
 

@@ -1,12 +1,11 @@
----
-title: set_window_pos()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_wm
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_wm"
+title = "set_window_pos()"
+
++++
 
 ## Definition
 

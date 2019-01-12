@@ -1,12 +1,11 @@
----
-title: Blur Modes
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
-module: mod_effects
----
++++
+categories = ["constants"]
+divlikes = ["bennugd"]
+layout = "constant"
+module = "mod_effects"
+title = "Blur Modes"
+
++++
 
 Blur modes are used to specify the mode of blurring in the [`blur()`]({{< ref "/docs/functions/blur" >}}).
 

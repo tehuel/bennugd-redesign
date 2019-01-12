@@ -1,10 +1,9 @@
----
-title: mod_math
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_math"
+
++++
 
 Math module.

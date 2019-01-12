@@ -1,12 +1,11 @@
----
-title: quicksort()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_sort
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_sort"
+title = "quicksort()"
+
++++
 
 ## Definition
 

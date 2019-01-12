@@ -1,10 +1,9 @@
----
-title: mod_file
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_file"
+
++++
 
 Files module, adding control over individual files (reading, writing, etc).

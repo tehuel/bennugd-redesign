@@ -1,9 +1,10 @@
----
-title: BennuGD Documentation
-linktitle: Docs
-menu: main
-weight: 5
----
++++
+linktitle = "Docs"
+menu = "main"
+title = "BennuGD Documentation"
+weight = 5
+
++++
 
 BennuGD, a Fenix fork from Fenix 0.93, is an interpreted programming language aimed at making games. It is designed in such a way, the graphical, sound and threading systems are easier to use, which makes Bennu a powerful language, not only for beginners, but also for experienced programmers.
 

@@ -1,10 +1,9 @@
----
-title: mod_wm
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_wm"
+
++++
 
 Window Manager module.

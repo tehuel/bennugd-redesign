@@ -1,10 +1,9 @@
----
-title: Hello World
-categories:
-- general
-divlikes:
-- bennugd
----
++++
+categories = ["general"]
+divlikes = ["bennugd"]
+title = "Hello World"
+
++++
 
 The Bennu **Hello World!** Example.
 

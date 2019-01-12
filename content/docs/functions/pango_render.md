@@ -1,12 +1,11 @@
----
-title: pango_render()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_"
+title = "pango_render()"
+
++++
 
 ## Definition
 

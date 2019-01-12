@@ -1,7 +1,8 @@
----
-title: Constants
-weight: 10
----
++++
+title = "Constants"
+weight = 10
+
++++
 
 Here's a list of constant categories used in Bennu. When you're using an older version of Bennu and it doesn't recognize the constant, just use the corresponding value, which is listed with the constant.
 

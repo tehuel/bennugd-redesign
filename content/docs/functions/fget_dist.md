@@ -1,12 +1,11 @@
----
-title: fget_dist()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_math
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_math"
+title = "fget_dist()"
+
++++
 
 ## Definition
 

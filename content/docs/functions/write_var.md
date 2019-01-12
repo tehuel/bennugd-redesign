@@ -1,12 +1,11 @@
----
-title: write_var()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_text
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_text"
+title = "write_var()"
+
++++
 
 ## Definition
 

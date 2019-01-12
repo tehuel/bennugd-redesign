@@ -1,10 +1,9 @@
----
-title: mod_say
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_say"
+
++++
 
 Say (printf) module.

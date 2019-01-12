@@ -1,12 +1,11 @@
----
-title: blendop_translucency()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_blendop
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_blendop"
+title = "blendop_translucency()"
+
++++
 
 ## Definition
 

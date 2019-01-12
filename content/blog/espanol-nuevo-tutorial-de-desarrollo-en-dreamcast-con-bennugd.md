@@ -1,10 +1,10 @@
----
-title: "(Español) Nuevo tutorial de desarrollo en Dreamcast con BennuGD"
-date: 2018-06-12
-image: /img/bennugd-dreamcast-colors.jpg
-categories:
-  - tutorial
----
++++
+categories = ["tutorial"]
+date = "2018-06-12"
+image = "/img/bennugd-dreamcast-colors.jpg"
+title = "(Español) Nuevo tutorial de desarrollo en Dreamcast con BennuGD"
+
++++
 
 ## Sopita patre
 

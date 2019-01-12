@@ -1,10 +1,9 @@
----
-title: mod_draw
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+divlikes = ["bennugd"]
+layout = "module"
+title = "mod_draw"
+
++++
 
 Primitive drawing module, adding drawing of primitive and pixels.

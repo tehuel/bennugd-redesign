@@ -1,11 +1,10 @@
----
-title: "GIVEAWAY! eXplosive Dinosaurs is giving away 3 merchandise sets"
-date: 2018-08-10
-image: /img/explosive-dinosaurs-giveaway.jpg
-categories:
-  - games
-  - community
----
++++
+categories = ["games", "community"]
+date = "2018-08-10"
+image = "/img/explosive-dinosaurs-giveaway.jpg"
+title = "GIVEAWAY! eXplosive Dinosaurs is giving away 3 merchandise sets"
+
++++
 
 
 Jarl is a comical top-down arcade game made in BennuGD by our forum user Futu-Block where the character has to finish the level avoiding all kind of obstacles.

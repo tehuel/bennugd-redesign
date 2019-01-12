@@ -1,12 +1,11 @@
----
-title: Joystick Constants
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
-module: mod_joy
----
++++
+categories = ["constants"]
+divlikes = ["bennugd"]
+layout = "constant"
+module = "mod_joy"
+title = "Joystick Constants"
+
++++
 
 Joystick constants are constants used with joysticks.
 

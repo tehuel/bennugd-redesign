@@ -1,12 +1,11 @@
----
-title: region_define()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_screen
----
++++
+categories = ["functions"]
+divlikes = ["bennugd"]
+layout = "function"
+module = "mod_screen"
+title = "region_define()"
+
++++
 
 ## Definition
 

@@ -1,11 +1,10 @@
----
-title: Graphical Infotypes
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+divlikes = ["bennugd"]
+layout = "constant"
+title = "Graphical Infotypes"
+
++++
 
 Graphical infotypes are used in [`graphic_info()`]({{< ref "/docs/functions/graphic_info" >}}), to specify what information about a graph is wanted.
 

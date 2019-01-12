@@ -1,9 +1,10 @@
----
-title: What is BennuGD?
-linktitle: What Is?
-menu: main
-weight: 2
----
++++
+linktitle = "What Is?"
+menu = "main"
+title = "What is BennuGD?"
+weight = 2
+
++++
 
 {{< figure src="/img/isologo.png" >}}
 

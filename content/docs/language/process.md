@@ -1,11 +1,9 @@
----
-title: Process
-categories:
-- general
-- language
-divlikes:
-- bennugd
----
++++
+categories = ["general", "language"]
+divlikes = ["bennugd"]
+title = "Process"
+
++++
 
 ## Syntax
 
