@@ -1,5 +1,5 @@
 +++
-categories = ["functions"]
+categories = ["functions", "math"]
 layout = "function"
 module = "mod_math"
 title = "sqrt()"
@@ -8,10 +8,12 @@ title = "sqrt()"
 
 ## Definition
 
-    sqrt ( )
+    FLOAT sqrt ( <FLOAT value> )
 
 ## Parameters
 
+- FLOAT value - The value of which the square root will be returned.
+
 ## Returns
 
-## Example
+FLOAT : The square root of value.

@@ -1,5 +1,5 @@
 +++
-categories = ["functions"]
+categories = ["functions", "math"]
 layout = "function"
 module = "mod_math"
 title = "isnan()"
@@ -8,10 +8,19 @@ title = "isnan()"
 
 ## Definition
 
-    isnan ( )
+    INT isnan ( <FLOAT number> )
+
+Checks if a given value is a number.
+
+It does not check for infinties, use the `isinf()` function for that.
 
 ## Parameters
 
+- FLOAT number - The value to check.
+
 ## Returns
 
-## Example
+INT : The result of the check
+
+- `0` (false) - The value is a number.
+- `!0` (true)  - The value is NOT a number.
