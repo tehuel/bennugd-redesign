@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_dir"
+modules = ["mod_dir"]
 title = "cd()"
 
 +++

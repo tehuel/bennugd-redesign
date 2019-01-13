@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_crypt"
+modules = ["mod_crypt"]
 title = "crypt_encrypt()"
 
 +++

@@ -1,7 +1,7 @@
 +++
 categories = ["constants"]
 layout = "constant"
-module = "mod_effects"
+modules = ["mod_effects"]
 title = "Blur Modes"
 
 +++

@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_flic"
+modules = ["mod_flic"]
 title = "fli_end()"
 
 +++

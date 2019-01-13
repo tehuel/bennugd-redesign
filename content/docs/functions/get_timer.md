@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_time"
+modules = ["mod_time"]
 title = "get_timer()"
 
 +++

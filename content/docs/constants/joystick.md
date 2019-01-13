@@ -1,7 +1,7 @@
 +++
 categories = ["constants"]
 layout = "constant"
-module = "mod_joy"
+modules = ["mod_joy"]
 title = "Joystick Constants"
 
 +++

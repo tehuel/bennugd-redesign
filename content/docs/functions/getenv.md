@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_sys"
+modules = ["mod_sys"]
 title = "getenv()"
 
 +++

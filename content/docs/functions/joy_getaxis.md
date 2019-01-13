@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_joy"
+modules = ["mod_joy"]
 title = "joy_getaxis()"
 
 +++

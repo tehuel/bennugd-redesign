@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_regex"
+modules = ["mod_regex"]
 title = "split()"
 
 +++

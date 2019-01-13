@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_blendop"
+modules = ["mod_blendop"]
 title = "blendop_identity()"
 
 +++

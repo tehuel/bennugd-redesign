@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_wm"
+modules = ["mod_wm"]
 title = "set_icon()"
 
 +++

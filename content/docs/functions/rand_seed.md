@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_rand"
+modules = ["mod_rand"]
 title = "rand_seed()"
 
 +++

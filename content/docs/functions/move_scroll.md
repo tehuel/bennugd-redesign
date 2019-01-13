@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_scroll"
+modules = ["mod_scroll"]
 title = "move_scroll()"
 
 +++

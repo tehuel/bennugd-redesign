@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_mem"
+modules = ["mod_mem"]
 title = "memory_free()"
 
 +++

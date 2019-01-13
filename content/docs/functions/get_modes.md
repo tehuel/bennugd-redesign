@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_video"
+modules = ["mod_video"]
 title = "get_modes()"
 
 +++

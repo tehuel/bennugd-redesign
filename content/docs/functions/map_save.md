@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_map"
+modules = ["mod_map"]
 title = "map_save()"
 
 +++

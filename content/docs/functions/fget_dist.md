@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_math"
+modules = ["mod_math"]
 title = "fget_dist()"
 
 +++

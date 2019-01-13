@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_file"
+modules = ["mod_file"]
 title = "file()"
 
 +++

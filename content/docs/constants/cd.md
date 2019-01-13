@@ -1,7 +1,7 @@
 +++
 categories = ["constants"]
 layout = "constant"
-module = "mod_cd"
+modules = ["mod_cd"]
 title = "CD Status Codes"
 
 +++

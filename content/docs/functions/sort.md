@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_sort"
+modules = ["mod_sort"]
 title = "sort()"
 
 +++

@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_key"
+modules = ["mod_key"]
 title = "key()"
 
 +++

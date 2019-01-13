@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_draw"
+modules = ["mod_draw"]
 title = "move_draw()"
 
 +++

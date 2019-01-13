@@ -1,7 +1,7 @@
 +++
 categories = ["functions", "debug"]
 layout = "function"
-module = "mod_say"
+modules = ["mod_say"]
 title = "say()"
 
 +++

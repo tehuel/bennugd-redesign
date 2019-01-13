@@ -1,7 +1,7 @@
 +++
 categories = ["functions", "screen", "drawing"]
 layout = "function"
-module = "mod_screen"
+modules = ["mod_screen"]
 title = "put()"
 
 +++

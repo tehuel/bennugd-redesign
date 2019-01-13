@@ -2,7 +2,7 @@
 aliases = ["/docs/functions/strlen"]
 categories = ["functions"]
 layout = "function"
-module = "mod_string"
+modules = ["mod_string"]
 title = "len()"
 
 +++

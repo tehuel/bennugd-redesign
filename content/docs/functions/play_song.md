@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_sound"
+modules = ["mod_sound"]
 title = "play_song()"
 
 +++

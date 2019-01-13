@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_cd"
+modules = ["mod_cd"]
 title = "cd_drives()"
 
 +++

@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_"
+modules = ["mod_"]
 title = "net_about()"
 
 +++

@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_effects"
+modules = ["mod_effects"]
 title = "filter()"
 
 +++

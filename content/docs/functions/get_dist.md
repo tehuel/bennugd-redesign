@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_grproc"
+modules = ["mod_grproc"]
 title = "get_dist()"
 
 +++

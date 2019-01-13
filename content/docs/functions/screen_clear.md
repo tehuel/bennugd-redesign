@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_screen"
+modules = ["mod_screen"]
 title = "screen_clear()"
 
 +++

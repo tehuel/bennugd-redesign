@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_path"
+modules = ["mod_path"]
 title = "path_find()"
 
 +++

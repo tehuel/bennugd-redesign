@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_text"
+modules = ["mod_text"]
 title = "get_text_color()"
 
 +++

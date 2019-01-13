@@ -1,7 +1,7 @@
 +++
 categories = ["functions", "files"]
 layout = "function"
-module = "mod_dir"
+modules = ["mod_dir"]
 title = "dirread()"
 
 +++

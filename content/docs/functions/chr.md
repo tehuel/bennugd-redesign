@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_string"
+modules = ["mod_string"]
 title = "chr()"
 
 +++

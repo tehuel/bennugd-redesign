@@ -1,7 +1,7 @@
 +++
 categories = ["functions"]
 layout = "function"
-module = "mod_proc"
+modules = ["mod_proc"]
 title = "exit()"
 
 +++
