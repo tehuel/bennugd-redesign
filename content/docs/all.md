@@ -511,7 +511,7 @@ The already migrated content is marked ~~as this~~.
 -   [~~K~~](http://wiki.bennugd.org/index.php?title=K "K") -> [`Constants/Scancodes`]({{< ref "/docs/constants/scancodes" >}})
 -   [~~Key~~](http://wiki.bennugd.org/index.php?title=Key "Key") -> [`key()`]({{< ref "/docs/functions/key" >}})
 -   [~~Keycodes~~](http://wiki.bennugd.org/index.php?title=Keycodes "Keycodes") -> [`Constants/Scancodes`]({{< ref "/docs/constants/scancodes" >}})
--   [Keywords](http://wiki.bennugd.org/index.php?title=Keywords "Keywords")
+-   [~~Keywords~~](http://wiki.bennugd.org/index.php?title=Keywords "Keywords") -> [`Language/Keywords`]({{< ref "/docs/language/keywords" >}})
 -   [Ksort](http://wiki.bennugd.org/index.php?title=Ksort "Ksort")
 -   [~~L~~](http://wiki.bennugd.org/index.php?title=L "L") -> [`Constants/Scancodes`]({{< ref "/docs/constants/scancodes" >}})
 -   [LCD.DLL](http://wiki.bennugd.org/index.php?title=LCD.DLL "LCD.DLL")
