@@ -1,7 +1,7 @@
 baseURL = "https://tehuel.github.io/bennugd-redesign/"
 title = "BennuGD"
 paginate = 6
-theme = "divhub-website-theme"
+theme = "divhub-hugo-theme"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
