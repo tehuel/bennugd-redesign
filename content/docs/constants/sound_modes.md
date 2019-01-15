@@ -1,6 +1,7 @@
 +++
 categories = ["constants"]
 layout = "constant"
+modules = ["mod_sound"]
 title = "Sound Modes"
 
 +++

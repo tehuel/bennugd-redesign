@@ -1,7 +1,7 @@
 +++
 categories = ["constants"]
 layout = "constant"
-modules = ["internal"]
+modules = ["Internals"]
 title = "Process statuscodes"
 
 +++
