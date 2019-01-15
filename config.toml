@@ -1,4 +1,4 @@
-baseURL = "https://tehuel.github.io/bennugd-redesign/"
+baseURL = "https://divhub.github.io/bennugd-website/"
 title = "BennuGD"
 paginate = 6
 theme = "divhub-hugo-theme"
@@ -9,7 +9,7 @@ theme = "divhub-hugo-theme"
 
 [params]
   mainSections = ["blog"]
-  repository = "https://github.com/tehuel/bennugd-redesign/"
+  repository = "https://github.com/DivHub/bennugd-website"
   tagline = "A multi-platform div-like videogame programming language."
   donations = "https://paypal.com"
   logo = "img/logo.png"

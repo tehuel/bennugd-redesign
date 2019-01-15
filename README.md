@@ -1,7 +1,5 @@
 # BennuGD Website Redesign
 
-[![Build Status](https://travis-ci.org/tehuel/bennugd-redesign.svg?branch=master)](https://travis-ci.org/tehuel/bennugd-redesign) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-
 A new website for the BennuGD community, including news, docs, and projects.
 
 ## Getting Started
@@ -14,13 +12,15 @@ To run this website locally, you need `hugo`, at least version `0.43`. The [offi
 
 ## Deployment
 
-The deployment of this website is [managed using TravisCI](https://travis-ci.org/tehuel/bennugd-redesign) and Github Pages. The live version always corresponds to the `master` branch, and can be seen in [tehuel.github.io/bennugd-redesign/](https://tehuel.github.io/bennugd-redesign/).
+The deployment of this website is [managed using TravisCI](https://www.travis-ci.org/DivHub/bennugd-website/) and Github Pages.
+
+The live version always corresponds to the `master` branch, and can be seen in [divhub.github.io/bennugd-website/](https://divhub.github.io/bennugd-website/).
 
 ## Authors
 
 * **Tehuel Torres Baldi** - *Initial work* - [https://tehuel.blog](https://tehuel.blog)
 
-See also the list of [contributors](https://github.com/tehuel/bennugd-website/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/DivHub/bennugd-website/contributors) who participated in this project.
 
 ## License
 
