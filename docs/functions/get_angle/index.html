@@ -1,0 +1,91 @@
+<!doctype html><html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>get_angle()</title><link rel=stylesheet href=/bennugd-website/main.css><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.5.0/css/all.css integrity=sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU crossorigin=anonymous><link rel=apple-touch-icon sizes=180x180 href=https://divhub.github.io/bennugd-website/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://divhub.github.io/bennugd-website/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://divhub.github.io/bennugd-website/favicon-16x16.png><link rel=manifest href=https://divhub.github.io/bennugd-website/site.webmanifest><link rel=mask-icon href=https://divhub.github.io/bennugd-website/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content=#da532c><meta name=theme-color content=#ffffff><body><nav class="navbar is-primary"><div class=container><div class=navbar-brand><a href=https://divhub.github.io/bennugd-website/ class=navbar-item><img src=/bennugd-website/img/logo.png alt="BennuGD Logo">
+BennuGD</a>
+<span class="navbar-burger burger" data-target=main-navbar><span></span><span></span><span></span></span></div><div class=navbar-menu id=main-navbar><div class="navbar-end has-text-centered-mobile"><a class=navbar-item title="What Is?" href=/bennugd-website/what-is/>What Is?
+</a><a class=navbar-item title=News href=/bennugd-website/blog/>News
+</a><a class=navbar-item title=Docs href=/bennugd-website/docs/>Docs
+</a><a class=navbar-item title=Download href=/bennugd-website/downloads/>Download</a></div></div></div></nav><script>document.addEventListener('DOMContentLoaded',()=>{const $navbarBurgers=Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'),0);if($navbarBurgers.length>0){$navbarBurgers.forEach(el=>{el.addEventListener('click',()=>{const target=el.dataset.target;const $target=document.getElementById(target);el.classList.toggle('is-active');$target.classList.toggle('is-active');});});}});</script><div class=section><div class=container><div class=columns><div class="column is-3"><div id=search-section><div id=search-form class=field><div class=control><input id=search-input class=input type=text placeholder="Search Docs"></div></div><div id=search-results-box class=box style=max-height:40%;overflow:hidden;overflow-y:auto;position:absolute;display:none><ul id=search-results-list></ul><div id=search-results-noresults class="notification is-info">No results found.</div></div></div><aside class=menu><ul class=menu-list><li><a href=https://divhub.github.io/bennugd-website/docs/>Docs</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/general/>General</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/language/>Language</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/modules/>Modules</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/functions/>Functions</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/variables/>Variables</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/constants/>Constants</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/guides/>Guides and Tutorials</a></li></ul></aside></div><div class="column is-6"><nav class=breadcrumb aria-label=breadcrumbs><ul><li><a href=https://divhub.github.io/bennugd-website/docs/functions/>Functions</a></li><li class=is-active><a href=https://divhub.github.io/bennugd-website/docs/functions/get_angle/ aria-current=page>get_angle()</a></li></ul></nav><h1 class="title is-2">get_angle()</h1><div class=content><h2 id=definition>Definition</h2><pre><code>INT get_angle ( &lt;INT processID&gt; )
+</code></pre><p>Returns the angle between the coordinates of a certain process and the process calling <code>get_angle()</code>.</p><h2 id=parameters>Parameters</h2><ul><li>INT processID - The other process.</li></ul><h2 id=returns>Returns</h2><p>INT : The wanted angle.</p><ul><li><code>-1</code> - An error may have occurred: invalid process.</li><li><code>!-1</code> - The wanted angle.</li></ul><h2 id=example>Example</h2><pre><code>Program angling;
+import &quot;mod_grproc&quot;//modules
+import &quot;mod_proc&quot;
+import &quot;mod_wm&quot;
+import &quot;mod_key&quot;
+import &quot;mod_video&quot;
+import &quot;mod_map&quot;
+import &quot;mod_draw&quot;
+import &quot;mod_text&quot;
+Const
+    screen_width     = 320;
+    screen_height    = 200;
+    screen_depth     = 8;
+    screen_fps       = 60;
+    screen_frameskip = 0;
+Global
+    int distance;
+    int tempID;
+Begin
+
+    // Set the screen mode
+    set_mode(screen_width,screen_height,screen_depth);
+    set_fps(screen_fps,screen_frameskip);
+
+    // Change this to see what happens
+    resolution = 100;
+
+    // Create mouse graph and start mousepointer
+    x = map_new(20,20,screen_depth);
+    map_clear(0,x,rgb(255,0,0));
+    mousepointer(0,x);
+
+    // Create arrow, assign to graph
+    graph = map_new(30,30,screen_depth);
+    drawing_map(0,graph);
+    drawing_color(rgb(0,255,0));
+    draw_line( 0,29,29,30/2);
+    draw_line( 0, 0,30,30/2);
+
+    // Set position
+    x = screen_width /2 * resolution;
+    y = screen_height/2 * resolution;
+
+    // Display distance
+    write(0,0,0,0,&quot;Distance:&quot;);
+    write_int(0,60,0,0,&amp;distance);
+
+    // Always point to the mouse
+    Repeat
+        // Get the angle and distance between this process' coordinates and those of mousegraph.
+        // We can use TYPE and get_id() here, because usually there would only be one
+        // mousepointer and one always.
+        tempID = get_id(type mousepointer);
+        angle = get_angle(tempID);
+        distance = get_dist(tempID);
+        frame;
+    Until(key(_esc))
+
+End
+
+/**
+ * Follows the mouse coordinates. x is always mouse.x and y is always mouse.y
+ * for processes with priority &lt;1. The graphic of this process will be a certain graphic.
+ * int file     - The fileID of the file where the graphic is located
+ * int graph    - The graphID of the graphic to be used for this process
+ */
+Process mousepointer(int file,int graph)
+Begin
+    // Set the priority to 1, because we first want to have the correct coordinates of
+    // the mouse set in this process. Then after that other process can use those coordinates.
+    priority = 1;
+    // Obtain father's resolution
+    resolution = father.resolution;
+    // Loop
+    Loop
+      // Obtain X and Y coordinates of the mouse and adjust for resolution
+        // (mouse.y and mouse.y have an unchangeable resolution of 1)
+        x = mouse.x * resolution;
+        y = mouse.y * resolution;
+        frame;
+    End
+End
+</code></pre><p>Used in example: <a href=https://divhub.github.io/bennugd-website/docs/functions/set_mode/><code>set_mode()</code></a>, <a href=https://divhub.github.io/bennugd-website/docs/functions/map_new/><code>map_new()</code></a>, <a href=https://divhub.github.io/bennugd-website/docs/functions/map_clear/><code>map_clear()</code></a>, <a href=https://divhub.github.io/bennugd-website/docs/functions/drawing_map/><code>drawing_map()</code></a>, <a href=https://divhub.github.io/bennugd-website/docs/functions/drawing_color/><code>drawing_color()</code></a>, <a href=https://divhub.github.io/bennugd-website/docs/functions/draw_line/><code>draw_line()</code></a>, <a href=https://divhub.github.io/bennugd-website/docs/functions/write/><code>write()</code></a>, <a href=https://divhub.github.io/bennugd-website/docs/functions/write_int/><code>write_int()</code></a>, <a href=https://divhub.github.io/bennugd-website/docs/functions/get_id/><code>get_id()</code></a>, <a href=https://divhub.github.io/bennugd-website/docs/functions/get_angle/><code>get_angle()</code></a>, <a href=https://divhub.github.io/bennugd-website/docs/functions/get_dist/><code>get_dist()</code></a>,resolution, mouse, graph, x, y, angle, priority</p><p>This example could also be done with <a href=https://divhub.github.io/bennugd-website/docs/functions/fget_angle/><code>fget_angle()</code></a>, which is easier and doesn&rsquo;t require an extra process.</p><blockquote><p>It could look something like: <a href=http://wwwhome.cs.utwente.nl/~bergfi/fenix/wiki/get_angle.PNG>http://wwwhome.cs.utwente.nl/~bergfi/fenix/wiki/get_angle.PNG</a></p></blockquote></div><div class=panel><p class=panel-heading>Module</p><a class=panel-block href=https://divhub.github.io/bennugd-website/docs/modules/mod_grproc/>mod_grproc</a></div></div><div class="column is-3"><nav id=TableOfContents><ul><li><ul><li><a href=#definition>Definition</a></li><li><a href=#parameters>Parameters</a></li><li><a href=#returns>Returns</a></li><li><a href=#example>Example</a></li></ul></li></ul></nav></div></div></div></div><footer class=footer><div class="container has-text-centered"><div class="footer-section footer-logo-section margin-2"><img src=/bennugd-website/img/logo.png alt="BennuGD Logo" style=max-width:100px><p>BennuGD | A multi-platform div-like videogame programming language.</p></div><div class="footer-section footer-donations-section"><p>Consider a small donation to help keep the project running!</p><a href=https://paypal.com target=_blank class="button is-info is-outlined"><span class=icon><i class="fab fa-paypal"></i></span><span>Donate</span></a></div><div class="footer-section footer-copyright-section"><p>Made with ❤️ |
+Design by <a href=https://tehuel.blog>Tehuel</a>
+| <a href=https://github.com/DivHub/bennugd-websiteedit/master/content/docs/functions/get_angle.md>Edit this page on Github</a></p></div></div></footer><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js></script><script src=/bennugd-website/js/search.min.636232402d53d6df70af19f5ad737563.js></script></body></html>

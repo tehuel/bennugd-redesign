@@ -1,0 +1,64 @@
+<!doctype html><html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Pointer</title><link rel=stylesheet href=/bennugd-website/main.css><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.5.0/css/all.css integrity=sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU crossorigin=anonymous><link rel=apple-touch-icon sizes=180x180 href=https://divhub.github.io/bennugd-website/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://divhub.github.io/bennugd-website/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://divhub.github.io/bennugd-website/favicon-16x16.png><link rel=manifest href=https://divhub.github.io/bennugd-website/site.webmanifest><link rel=mask-icon href=https://divhub.github.io/bennugd-website/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content=#da532c><meta name=theme-color content=#ffffff><body><nav class="navbar is-primary"><div class=container><div class=navbar-brand><a href=https://divhub.github.io/bennugd-website/ class=navbar-item><img src=/bennugd-website/img/logo.png alt="BennuGD Logo">
+BennuGD</a>
+<span class="navbar-burger burger" data-target=main-navbar><span></span><span></span><span></span></span></div><div class=navbar-menu id=main-navbar><div class="navbar-end has-text-centered-mobile"><a class=navbar-item title="What Is?" href=/bennugd-website/what-is/>What Is?
+</a><a class=navbar-item title=News href=/bennugd-website/blog/>News
+</a><a class=navbar-item title=Docs href=/bennugd-website/docs/>Docs
+</a><a class=navbar-item title=Download href=/bennugd-website/downloads/>Download</a></div></div></div></nav><script>document.addEventListener('DOMContentLoaded',()=>{const $navbarBurgers=Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'),0);if($navbarBurgers.length>0){$navbarBurgers.forEach(el=>{el.addEventListener('click',()=>{const target=el.dataset.target;const $target=document.getElementById(target);el.classList.toggle('is-active');$target.classList.toggle('is-active');});});}});</script><div class=section><div class=container><div class=columns><div class="column is-3"><div id=search-section><div id=search-form class=field><div class=control><input id=search-input class=input type=text placeholder="Search Docs"></div></div><div id=search-results-box class=box style=max-height:40%;overflow:hidden;overflow-y:auto;position:absolute;display:none><ul id=search-results-list></ul><div id=search-results-noresults class="notification is-info">No results found.</div></div></div><aside class=menu><ul class=menu-list><li><a href=https://divhub.github.io/bennugd-website/docs/>Docs</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/general/>General</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/language/>Language</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/modules/>Modules</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/functions/>Functions</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/variables/>Variables</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/constants/>Constants</a></li><li><a href=https://divhub.github.io/bennugd-website/docs/guides/>Guides and Tutorials</a></li></ul></aside></div><div class="column is-6"><nav class=breadcrumb aria-label=breadcrumbs><ul><li><a href=https://divhub.github.io/bennugd-website/docs/language/>Language</a></li><li class=is-active><a href=https://divhub.github.io/bennugd-website/docs/language/pointer/ aria-current=page>Pointer</a></li></ul></nav><h1 class="title is-2">Pointer</h1><div class=content><h2 id=syntax>Syntax</h2><p>Declaration of a pointer:</p><pre><code>&lt;datatype&gt; POINTER &lt;pointername&gt;
+&lt;datatype&gt; * &lt;pointername&gt;
+</code></pre><p>Assignment of a value to the location pointed to:</p><pre><code>POINTER &lt;pointername&gt; = &lt;value&gt;;
+* &lt;pointername&gt; = &lt;value&gt;;
+</code></pre><table><thead><tr><th>Notation</th><th>Description</th></tr></thead><tbody><tr><td><code>&lt; ... &gt;</code></td><td>item</td></tr><tr><td><code>[ ... ]</code></td><td>optional</td></tr><tr><td><code>( ... )*</code></td><td>0 or more times</td></tr><tr><td><code>( ... )+</code></td><td>1 or more times</td></tr></tbody></table><h2 id=description>Description</h2><p>Pointers, are used to point to a location in memory. It uses 32 bits (4 bytes) so it can map 4GB of memory into bytes.</p><p>Pointers can point to any datatype: ints, shorts, strings or even usermade datatypes. However, using a <code>struct pointer my_pointer</code> is pointless, because the compiler has no knowledge of the elements inside the struct pointing to, since it doesn&rsquo;t know which struct is meant, so this is invalid.</p><p><code>MyStruct pointer my_pointer</code>, where <code>MyStruct</code> is an existing struct, is also not valid, because <code>MyStruct</code> is not a datatype. The only way to have something like a <code>struct pointer my_pointer</code> is to use <code>Type</code> as seen in the example.</p><h2 id=example>Example</h2><pre><code>import &quot;mod_say&quot;
+
+Type _point
+    int x;
+    int y;
+End
+
+Type _person
+    string name;
+    int age;
+End
+
+Global
+    _person Person;
+End
+
+Process Main()
+Private
+    int my_int;
+    int* my_int_pointer;
+    _point myPoint;
+    _person* personPointer; // possible, because _person is infact a datatype
+    //Person* personPointer; // not possible, because Person is not a datatype
+Begin
+
+    my_int_pointer = &amp;my_int;
+
+    my_int = 3;
+    say(my_int);
+    say(*my_int_pointer);
+
+    *my_int_pointer = 4;
+    say(my_int);
+    say(*my_int_pointer);
+
+    setXY(&amp;myPoint);
+    say(myPoint.x);
+    say(myPoint.y);
+
+    personPointer = &amp;Person;
+    personPointer.name = &quot;Mies&quot;;
+    say(Person.name);
+    say(personPointer.name);
+
+End
+
+Function int setXY(_point* p)
+Begin
+    p.x = 3; // this is actually (*p).x = 3, but . can be used like this
+    p.y = 5; // this is actually (*p).y = 5, but . can be used like this
+    return 0;
+End
+</code></pre><p>Used in example: say(), key(), Type, Global, Private, point</p><p>The <code>&amp;</code> (offset) operator, when used with pointers, returns a <code>void</code> pointer to a variable. In the example it returns an int pointer to the variable <code>my_int</code>.</p><p>The <code>*</code> (pointer) operator, when used with pointers, makes it so the pointer variable is not accessed, but the variable it&rsquo;s pointing to. In the example it changes access from <code>my_int_pointer</code> to <code>my_int</code>.</p></div></div><div class="column is-3"><nav id=TableOfContents><ul><li><ul><li><a href=#syntax>Syntax</a></li><li><a href=#description>Description</a></li><li><a href=#example>Example</a></li></ul></li></ul></nav></div></div></div></div><footer class=footer><div class="container has-text-centered"><div class="footer-section footer-logo-section margin-2"><img src=/bennugd-website/img/logo.png alt="BennuGD Logo" style=max-width:100px><p>BennuGD | A multi-platform div-like videogame programming language.</p></div><div class="footer-section footer-donations-section"><p>Consider a small donation to help keep the project running!</p><a href=https://paypal.com target=_blank class="button is-info is-outlined"><span class=icon><i class="fab fa-paypal"></i></span><span>Donate</span></a></div><div class="footer-section footer-copyright-section"><p>Made with ❤️ |
+Design by <a href=https://tehuel.blog>Tehuel</a>
+| <a href=https://github.com/DivHub/bennugd-websiteedit/master/content/docs/language/pointer.md>Edit this page on Github</a></p></div></div></footer><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js></script><script src=/bennugd-website/js/search.min.636232402d53d6df70af19f5ad737563.js></script></body></html>
