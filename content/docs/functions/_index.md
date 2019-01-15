@@ -1,7 +1,8 @@
----
-title: Functions
-weight: 4
----
++++
+title = "Functions"
+weight = 4
+
++++
 
 Est tantis timendi, sub venit coniuge; hoc sola haesura. Poena non cadit, sol
 [monte](http://inpiainquit.io/ad), nova voluptas nostra cultu nova. Levavit

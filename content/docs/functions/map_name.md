@@ -1,12 +1,10 @@
----
-title: map_name()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_map
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_map"]
+title = "map_name()"
+
++++
 
 ## Definition
 

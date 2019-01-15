@@ -1,12 +1,10 @@
----
-title: write_float()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_text
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_text"]
+title = "write_float()"
+
++++
 
 ## Definition
 

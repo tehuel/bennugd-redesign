@@ -1,12 +1,10 @@
----
-title: move_draw()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_draw
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_draw"]
+title = "move_draw()"
+
++++
 
 ## Definition
 

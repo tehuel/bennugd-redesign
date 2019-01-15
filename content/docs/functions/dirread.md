@@ -1,13 +1,10 @@
----
-title: dirread()
-layout: function
-categories:
-- functions
-- files
-divlikes:
-- bennugd
-module: mod_dir
----
++++
+categories = ["functions", "files"]
+layout = "function"
+modules = ["mod_dir"]
+title = "dirread()"
+
++++
 
 ## Definition
 

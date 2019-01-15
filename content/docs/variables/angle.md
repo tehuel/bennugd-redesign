@@ -1,12 +1,9 @@
----
-title: angle
-layout: variable
-categories:
-- variables
-- local
-divlikes:
-- bennugd
----
++++
+categories = ["variables", "local"]
+layout = "variable"
+title = "angle"
+
++++
 
 ## Definition
 

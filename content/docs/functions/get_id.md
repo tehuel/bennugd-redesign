@@ -1,12 +1,10 @@
----
-title: get_id()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_proc
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_proc"]
+title = "get_id()"
+
++++
 
 ## Definition
 

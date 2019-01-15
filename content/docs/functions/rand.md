@@ -1,12 +1,10 @@
----
-title: rand()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_rand
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_rand"]
+title = "rand()"
+
++++
 
 ## Definition
 

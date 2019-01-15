@@ -1,12 +1,10 @@
----
-title: move_window()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_wm
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_wm"]
+title = "move_window()"
+
++++
 
 ## Definition
 

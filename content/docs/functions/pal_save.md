@@ -1,12 +1,10 @@
----
-title: pal_save()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_map
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_map"]
+title = "pal_save()"
+
++++
 
 ## Definition
 

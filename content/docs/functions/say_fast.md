@@ -1,12 +1,10 @@
----
-title: say_fast()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_say
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_say"]
+title = "say_fast()"
+
++++
 
 ## Definition
 

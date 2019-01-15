@@ -1,11 +1,9 @@
----
-title: Graph Modes
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+layout = "constant"
+title = "Graph Modes"
+
++++
 
 Graph modes are used to specify the color depth of the screen and the mode of rendering, by assigning them to the global variable `graph_mode`. This is also achieved by passing them to the parameters depth and flags in the function [`set_mode()`]({{< ref "/docs/functions/set_mode" >}}), which is a pretty tidy solution.
 

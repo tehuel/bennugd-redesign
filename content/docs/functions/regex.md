@@ -1,12 +1,10 @@
----
-title: regex()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_regex
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_regex"]
+title = "regex()"
+
++++
 
 ## Definition
 

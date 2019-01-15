@@ -1,12 +1,9 @@
----
-title: shift_status
-layout: variable
-categories:
-- variables
-- global
-divlikes:
-- bennugd
----
++++
+categories = ["variables", "global"]
+layout = "variable"
+title = "shift_status"
+
++++
 
 ## Definition
 

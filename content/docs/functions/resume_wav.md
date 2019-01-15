@@ -1,12 +1,10 @@
----
-title: resume_wav()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_sound
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_sound"]
+title = "resume_wav()"
+
++++
 
 ## Definition
 

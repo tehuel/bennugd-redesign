@@ -1,14 +1,10 @@
----
-title: put()
-layout: function
-categories:
-- functions
-- screen
-- drawing
-divlikes:
-- bennugd
-module: mod_screen
----
++++
+categories = ["functions", "screen", "drawing"]
+layout = "function"
+modules = ["mod_screen"]
+title = "put()"
+
++++
 
 ## Definition
 

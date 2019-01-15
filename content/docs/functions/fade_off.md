@@ -1,12 +1,10 @@
----
-title: fade_off()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_map
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_map"]
+title = "fade_off()"
+
++++
 
 ## Definition
 

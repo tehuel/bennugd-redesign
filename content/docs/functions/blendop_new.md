@@ -1,12 +1,10 @@
----
-title: blendop_new()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_blendop
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_blendop"]
+title = "blendop_new()"
+
++++
 
 ## Definition
 

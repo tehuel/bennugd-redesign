@@ -1,12 +1,10 @@
----
-title: substr()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_string
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_string"]
+title = "substr()"
+
++++
 
 ## Definition
 

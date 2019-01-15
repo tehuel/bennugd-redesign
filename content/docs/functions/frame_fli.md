@@ -1,12 +1,10 @@
----
-title: frame_fli()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_flic
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_flic"]
+title = "frame_fli()"
+
++++
 
 ## Definition
 

@@ -1,7 +1,8 @@
----
-title: Variables
-weight: 5
----
++++
+title = "Variables"
+weight = 5
+
++++
 
 ## Global Variable
 

@@ -1,12 +1,10 @@
----
-title: mem_move()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_mem
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_mem"]
+title = "mem_move()"
+
++++
 
 ## Definition
 

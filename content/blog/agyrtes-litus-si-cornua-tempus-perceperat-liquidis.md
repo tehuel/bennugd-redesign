@@ -1,10 +1,9 @@
----
-title: "Agyrtes litus si cornua tempus perceperat liquidis"
-date: 2018-11-12
-image:
-categories:
-  - games
----
++++
+categories = ["games"]
+date = "2018-11-12"
+title = "Agyrtes litus si cornua tempus perceperat liquidis"
+
++++
 
 ## Ut sibi
 

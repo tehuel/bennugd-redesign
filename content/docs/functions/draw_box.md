@@ -1,12 +1,10 @@
----
-title: draw_box()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_draw
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_draw"]
+title = "draw_box()"
+
++++
 
 ## Definition
 

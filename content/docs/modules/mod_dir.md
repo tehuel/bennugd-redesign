@@ -1,10 +1,8 @@
----
-title: mod_dir
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_dir"
+
++++
 
 Directory module, adding control over the current working directory and the file system.

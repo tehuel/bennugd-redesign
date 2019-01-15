@@ -1,10 +1,8 @@
----
-title: mod_video
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_video"
+
++++
 
 Video module.

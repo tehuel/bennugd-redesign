@@ -1,12 +1,10 @@
----
-title: ksort()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_sort
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_sort"]
+title = "ksort()"
+
++++
 
 ## Definition
 

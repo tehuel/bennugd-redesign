@@ -1,11 +1,9 @@
----
-title: Scale Modes
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+layout = "constant"
+title = "Scale Modes"
+
++++
 
 Scale modes are used to set the mode of scaling, by assigning one of them to the global variable `scale_mode`.
 

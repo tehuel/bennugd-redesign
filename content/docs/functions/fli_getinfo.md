@@ -1,12 +1,10 @@
----
-title: fli_getinfo()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_flic
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_flic"]
+title = "fli_getinfo()"
+
++++
 
 ## Definition
 

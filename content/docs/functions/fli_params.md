@@ -1,12 +1,10 @@
----
-title: fli_params()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_flic
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_flic"]
+title = "fli_params()"
+
++++
 
 ## Definition
 

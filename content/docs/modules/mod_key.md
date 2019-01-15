@@ -1,10 +1,8 @@
----
-title: mod_key
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_key"
+
++++
 
 Keyboard module.

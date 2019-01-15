@@ -1,10 +1,8 @@
----
-title: mod_sound
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_sound"
+
++++
 
 Sound module.

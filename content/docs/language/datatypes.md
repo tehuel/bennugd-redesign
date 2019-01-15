@@ -1,11 +1,8 @@
----
-title: Data Types
-categories:
-- general
-- language
-divlikes:
-- bennugd
----
++++
+categories = ["general", "language"]
+title = "Data Types"
+
++++
 
 ## Description
 

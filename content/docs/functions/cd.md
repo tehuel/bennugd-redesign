@@ -1,12 +1,10 @@
----
-title: cd()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_dir
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_dir"]
+title = "cd()"
+
++++
 
 ## Definition
 

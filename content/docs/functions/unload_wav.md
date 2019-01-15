@@ -1,12 +1,10 @@
----
-title: unload_wav()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_sound
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_sound"]
+title = "unload_wav()"
+
++++
 
 ## Definition
 

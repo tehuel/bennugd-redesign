@@ -1,11 +1,9 @@
----
-title: Alignment Mode Constants
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+layout = "constant"
+title = "Alignment Mode Constants"
+
++++
 
 Alignment modes are modes which indicate how a graphic or [text]({{< ref "/docs/language/text" >}}) will be aligned relative to its center.
 

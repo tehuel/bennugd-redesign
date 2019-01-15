@@ -1,12 +1,10 @@
----
-title: log()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_"]
+title = "log()"
+
++++
 
 ## Definition
 

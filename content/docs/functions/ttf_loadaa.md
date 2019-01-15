@@ -1,12 +1,10 @@
----
-title: ttf_loadaa()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_"]
+title = "ttf_loadaa()"
+
++++
 
 ## Definition
 

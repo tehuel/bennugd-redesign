@@ -1,10 +1,9 @@
----
-title: "Causas erit soporem coeptis corpore et scires"
-date: 2018-09-16
-image:
-categories:
-  - games
----
++++
+categories = ["games"]
+date = "2018-09-16"
+title = "Causas erit soporem coeptis corpore et scires"
+
++++
 
 ## Animos ergo iungit iuvenis et manus de
 

@@ -1,10 +1,8 @@
----
-title: mod_timers
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_timers"
+
++++
 
 Timers module.

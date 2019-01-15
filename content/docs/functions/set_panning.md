@@ -1,12 +1,10 @@
----
-title: set_panning()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_sound
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_sound"]
+title = "set_panning()"
+
++++
 
 ## Definition
 

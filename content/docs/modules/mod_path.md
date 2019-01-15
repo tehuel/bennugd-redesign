@@ -1,10 +1,8 @@
----
-title: mod_path
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_path"
+
++++
 
 Pathfind module.

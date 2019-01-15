@@ -1,12 +1,10 @@
----
-title: path_getxy()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_path
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_path"]
+title = "path_getxy()"
+
++++
 
 ## Definition
 

@@ -1,12 +1,10 @@
----
-title: crypt_decrypt()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_crypt
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_crypt"]
+title = "crypt_decrypt()"
+
++++
 
 ## Definition
 

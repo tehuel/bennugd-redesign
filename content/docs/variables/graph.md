@@ -1,12 +1,9 @@
----
-title: graph
-layout: variable
-categories:
-- variables
-- local
-divlikes:
-- bennugd
----
++++
+categories = ["variables", "local"]
+layout = "variable"
+title = "graph"
+
++++
 
 ## Definition
 

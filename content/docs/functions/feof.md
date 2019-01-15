@@ -1,12 +1,10 @@
----
-title: feof()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_file
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_file"]
+title = "feof()"
+
++++
 
 ## Definition
 

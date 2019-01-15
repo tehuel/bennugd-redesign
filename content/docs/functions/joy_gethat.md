@@ -1,12 +1,10 @@
----
-title: joy_gethat()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_joy
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_joy"]
+title = "joy_gethat()"
+
++++
 
 ## Definition
 

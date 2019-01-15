@@ -1,12 +1,10 @@
----
-title: calloc()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_mem
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_mem"]
+title = "calloc()"
+
++++
 
 ## Definition
 

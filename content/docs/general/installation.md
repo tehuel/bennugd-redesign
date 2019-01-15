@@ -1,10 +1,8 @@
----
-title: Installation
-categories:
-- general
-divlikes:
-- bennugd
----
++++
+categories = ["general"]
+title = "Installation"
+
++++
 
 Polydore defenderet hominis et ortu formaene. Chromis puer ambagibus avis
 [nitentem](http://nec-aquas.io/) Themin intremuit Ixionides aequora voveam

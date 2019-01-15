@@ -1,12 +1,10 @@
----
-title: graphic_set()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_map
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_map"]
+title = "graphic_set()"
+
++++
 
 ## Definition
 

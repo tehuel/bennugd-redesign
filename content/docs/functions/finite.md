@@ -1,19 +1,30 @@
----
-title: finite()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_math
----
++++
+categories = ["functions", "math"]
+layout = "function"
+modules = ["mod_math"]
+title = "finite()"
+
++++
 
 ## Definition
 
-    finite ( )
+    INT Finite ( <FLOAT number> )
+
+Checks if a given value is a finite number. This function is the opposite of the `isinf()` function.
+
+It does not check for Not-A-Numbers. Use the `isnan()` function for that.
 
 ## Parameters
 
+- FLOAT number - The value to check.
+
 ## Returns
 
-## Example
+INT : The result of the check
+
+- `0` (false) - The value is an infinity.
+- `!0` (true)  - The value is a finite number.
+
+## See also
+
+Wikipedia page about the mathematical subject [infinity](https://en.wikipedia.org/wiki/Infinity).

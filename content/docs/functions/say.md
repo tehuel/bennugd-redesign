@@ -1,17 +1,14 @@
----
-title: say()
-layout: function
-categories:
-- functions
-- debug
-divlikes:
-- bennugd
-module: mod_say
----
++++
+categories = ["functions", "debug"]
+layout = "function"
+modules = ["mod_say"]
+title = "say()"
+
++++
 
 ## Definition
 
-	INT say ( <STRING message> )
+    INT say ( <STRING message> )
 
 Prints message to stdout (console).
 

@@ -1,10 +1,8 @@
----
-title: mod_screen
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_screen"
+
++++
 
 Screen module.

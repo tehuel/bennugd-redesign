@@ -1,12 +1,10 @@
----
-title: screen_get()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_screen
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_screen"]
+title = "screen_get()"
+
++++
 
 ## Definition
 

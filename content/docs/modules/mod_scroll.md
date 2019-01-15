@@ -1,10 +1,8 @@
----
-title: mod_scroll
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_scroll"
+
++++
 
 Scroll module.

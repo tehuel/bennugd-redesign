@@ -1,12 +1,10 @@
----
-title: stop_scroll()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_scroll
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_scroll"]
+title = "stop_scroll()"
+
++++
 
 ## Definition
 

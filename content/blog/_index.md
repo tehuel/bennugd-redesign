@@ -1,6 +1,7 @@
----
-title: Latest News from the Community
-linktitle: News
-menu: main
-weight: 4
----
++++
+linktitle = "News"
+menu = "main"
+title = "Latest News from the Community"
+weight = 4
+
++++

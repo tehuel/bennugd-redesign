@@ -1,11 +1,9 @@
----
-title: Color Depths
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+layout = "constant"
+title = "Color Depths"
+
++++
 
 Color depths are used to specify the color depth of the screen, by passing one of them to the function [`set_mode()`]({{< ref "/docs/functions/set_mode" >}}) as the depth parameter.
 

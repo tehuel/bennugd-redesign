@@ -1,12 +1,10 @@
----
-title: map_xputnp()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_mapmap
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_mapmap"]
+title = "map_xputnp()"
+
++++
 
 ## Definition
 

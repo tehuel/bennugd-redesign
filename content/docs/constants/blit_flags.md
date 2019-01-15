@@ -1,11 +1,9 @@
----
-title: Blit Flags
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+layout = "constant"
+title = "Blit Flags"
+
++++
 
 Blit flags are [bit flags]({{< ref "/docs/language/bit_flags" >}}) which can be passed to some map functions, to specify a certain effect when blitting a graphic. These functions are:
 

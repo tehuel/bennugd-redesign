@@ -1,10 +1,9 @@
----
-title: "Intus Ampyciden tetigit crura de odores propiore"
-date: 2018-01-01
-image:
-categories:
-  - games
----
++++
+categories = ["games"]
+date = "2018-01-01"
+title = "Intus Ampyciden tetigit crura de odores propiore"
+
++++
 
 ## Animos ergo iungit iuvenis et manus de
 

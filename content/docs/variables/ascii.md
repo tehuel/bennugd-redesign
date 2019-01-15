@@ -1,12 +1,9 @@
----
-title: ascii
-layout: variable
-categories:
-- variables
-- global
-divlikes:
-- bennugd
----
++++
+categories = ["variables", "global"]
+layout = "variable"
+title = "ascii"
+
++++
 
 ## Definition
 

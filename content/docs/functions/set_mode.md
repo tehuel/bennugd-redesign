@@ -1,12 +1,10 @@
----
-title: set_mode()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_video
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_video"]
+title = "set_mode()"
+
++++
 
 ## Definition
 

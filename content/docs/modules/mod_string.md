@@ -1,10 +1,8 @@
----
-title: mod_string
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_string"
+
++++
 
 String manipulation module.

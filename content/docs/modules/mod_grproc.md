@@ -1,10 +1,8 @@
----
-title: mod_grproc
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_grproc"
+
++++
 
 Graphical processes module.

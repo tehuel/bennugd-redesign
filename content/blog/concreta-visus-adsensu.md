@@ -1,10 +1,9 @@
----
-title: "Concreta visus adsensu"
-date: 2018-03-21
-image:
-categories:
-  - games
----
++++
+categories = ["games"]
+date = "2018-03-21"
+title = "Concreta visus adsensu"
+
++++
 
 # Tamen coeamus et cruribus pinea
 

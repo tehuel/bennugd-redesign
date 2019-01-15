@@ -1,14 +1,11 @@
----
-title: len()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_string
-aliases:
-- /docs/functions/strlen
----
++++
+aliases = ["/docs/functions/strlen"]
+categories = ["functions"]
+layout = "function"
+modules = ["mod_string"]
+title = "len()"
+
++++
 
 ## Definition
 

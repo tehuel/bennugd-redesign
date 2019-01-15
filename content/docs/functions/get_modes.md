@@ -1,12 +1,10 @@
----
-title: get_modes()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_video
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_video"]
+title = "get_modes()"
+
++++
 
 ## Definition
 

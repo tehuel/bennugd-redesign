@@ -1,12 +1,10 @@
----
-title: net_separator()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_"]
+title = "net_separator()"
+
++++
 
 ## Definition
 

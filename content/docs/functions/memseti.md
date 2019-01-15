@@ -1,12 +1,10 @@
----
-title: memseti()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_mem
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_mem"]
+title = "memseti()"
+
++++
 
 ## Definition
 

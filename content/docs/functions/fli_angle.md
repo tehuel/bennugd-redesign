@@ -1,12 +1,10 @@
----
-title: fli_angle()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_flic
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_flic"]
+title = "fli_angle()"
+
++++
 
 ## Definition
 

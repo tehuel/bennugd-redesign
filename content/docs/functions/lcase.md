@@ -1,12 +1,10 @@
----
-title: lcase()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_string
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_string"]
+title = "lcase()"
+
++++
 
 ## Definition
 

@@ -1,10 +1,8 @@
----
-title: mod_m7
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_m7"
+
++++
 
 Mode7 module.

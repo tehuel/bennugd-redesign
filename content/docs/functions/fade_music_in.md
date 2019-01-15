@@ -1,12 +1,10 @@
----
-title: fade_music_in()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_sound
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_sound"]
+title = "fade_music_in()"
+
++++
 
 ## Definition
 

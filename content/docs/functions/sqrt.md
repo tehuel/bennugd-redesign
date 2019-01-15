@@ -1,19 +1,19 @@
----
-title: sqrt()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_math
----
++++
+categories = ["functions", "math"]
+layout = "function"
+modules = ["mod_math"]
+title = "sqrt()"
+
++++
 
 ## Definition
 
-    sqrt ( )
+    FLOAT sqrt ( <FLOAT value> )
 
 ## Parameters
 
+- FLOAT value - The value of which the square root will be returned.
+
 ## Returns
 
-## Example
+FLOAT : The square root of value.

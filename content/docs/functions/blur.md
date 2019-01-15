@@ -1,12 +1,10 @@
----
-title: blur()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_effects
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_effects"]
+title = "blur()"
+
++++
 
 ## Definition
 

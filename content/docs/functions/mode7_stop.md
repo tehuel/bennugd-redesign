@@ -1,12 +1,10 @@
----
-title: mode7_stop()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_m7
----
++++
+categories = ["functions"]
+layout = "function"
+module = "mod_m7"
+title = "mode7_stop()"
+
++++
 
 ## Definition
 

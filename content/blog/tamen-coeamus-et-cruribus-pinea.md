@@ -1,10 +1,9 @@
----
-title: "Tamen coeamus et cruribus pinea"
-date: 2018-06-29
-image:
-categories:
-  - games
----
++++
+categories = ["games"]
+date = "2018-06-29"
+title = "Tamen coeamus et cruribus pinea"
+
++++
 
 # Tamen coeamus et cruribus pinea
 

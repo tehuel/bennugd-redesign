@@ -1,11 +1,8 @@
----
-title: Windgate's Tutorial
-categories:
-- guide
-- tutorial
-divlikes:
-- bennugd
----
++++
+categories = ["guide", "tutorial"]
+title = "Windgate's Tutorial"
+
++++
 
 
 This tutorial, originally made by Windgate for [Trinit](https://trinit.es/), tries to serve as a great starting point for those new to Bennu.

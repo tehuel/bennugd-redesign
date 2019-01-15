@@ -1,14 +1,15 @@
----
-title: What is BennuGD?
-linktitle: What Is?
-menu: main
-weight: 2
----
++++
+linktitle = "What Is?"
+menu = "main"
+title = "What is BennuGD?"
+weight = 2
+
++++
 
 {{< figure src="/img/isologo.png" >}}
 
 Bennu is a high level open source game development suite which focuses on modularity and portability, making it a perfect choice for cross-platform game development.
-Although officialy it is only supported on Windows, Linux and GP2X Wiz (on the right), Bennu can run on multiple other platforms, including *BSD, MacOSX and other consoles such as the Wii, Dingoo A320, GP2X, or the classic Xbox.
+Although officialy it is only supported on Windows, Linux and GP2X Wiz (on the right), Bennu can run on multiple other platforms, including &ast;BSD, MacOSX and other consoles such as the Wii, Dingoo A320, GP2X, or the classic Xbox.
 This makes it really fun to code in Bennu: the game can be played on you computer AND your console!
 
 >Screenshot of a First Person Shooter 3D game called Kombat 3D being developed with the 3D extension library for Bennu

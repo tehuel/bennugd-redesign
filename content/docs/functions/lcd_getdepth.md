@@ -1,12 +1,10 @@
----
-title: lcd_getdepth()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_"]
+title = "lcd_getdepth()"
+
++++
 
 ## Definition
 

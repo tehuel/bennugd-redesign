@@ -1,12 +1,10 @@
----
-title: time()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_time
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_time"]
+title = "time()"
+
++++
 
 ## Definition
 

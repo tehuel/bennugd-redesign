@@ -1,11 +1,9 @@
----
-title: Predefined Graphcodes
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+layout = "constant"
+title = "Predefined Graphcodes"
+
++++
 
 Predefined graphcodes can be used as GraphID's in some cases.
 

@@ -1,12 +1,10 @@
----
-title: crypt_new()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_crypt
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_crypt"]
+title = "crypt_new()"
+
++++
 
 ## Definition
 

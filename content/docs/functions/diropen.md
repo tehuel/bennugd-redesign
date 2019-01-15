@@ -1,17 +1,14 @@
----
-title: diropen()
-layout: function
-categories:
-- functions
-- files
-divlikes:
-- bennugd
-module: mod_dir
----
++++
+categories = ["functions", "files"]
+layout = "function"
+modules = ["mod_dir"]
+title = "diropen()"
+
++++
 
 ## Definition
 
-	INT diropen ( <STRING folder> )
+    INT diropen ( <STRING folder> )
 
 Open a directory for read it, returns handle id.
 

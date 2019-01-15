@@ -1,11 +1,9 @@
----
-title: Coordinate Numbers Flags
-layout: constant
-categories:
-- constants
-divlikes:
-- bennugd
----
++++
+categories = ["constants"]
+layout = "constant"
+title = "Coordinate Numbers Flags"
+
++++
 
 Coordinatenumber flags are used to set which scroll or mode_7 coordinate system should display a process, by assigning them to the local variable cnumber of that process. This only has influence on scrolls or mode_7 coordinate systems, not on the screen's coordinate system.
 

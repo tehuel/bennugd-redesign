@@ -1,12 +1,10 @@
----
-title: end_fli()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_flic
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_flic"]
+title = "end_fli()"
+
++++
 
 ## Definition
 

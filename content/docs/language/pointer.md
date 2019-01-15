@@ -1,12 +1,8 @@
----
-title: Pointer
-categories:
-- general
-- language
-- datatypes
-divlikes:
-- bennugd
----
++++
+categories = ["general", "language", "datatypes"]
+title = "Pointer"
+
++++
 
 ## Syntax
 

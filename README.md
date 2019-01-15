@@ -16,12 +16,6 @@ To run this website locally, you need `hugo`, at least version `0.43`. The [offi
 
 The deployment of this website is [managed using TravisCI](https://travis-ci.org/tehuel/bennugd-redesign) and Github Pages. The live version always corresponds to the `master` branch, and can be seen in [tehuel.github.io/bennugd-redesign/](https://tehuel.github.io/bennugd-redesign/).
 
-## Built With
-
-* [Hugo](https://gohugo.io/) - The static website framework used
-* [Bulma](https://bulma.io/) - CSS framework used
-* [Fuse.js](http://fusejs.io/) - Fuzzy-search library
-
 ## Authors
 
 * **Tehuel Torres Baldi** - *Initial work* - [https://tehuel.blog](https://tehuel.blog)

@@ -1,10 +1,8 @@
----
-title: mod_map
-layout: module
-categories:
-- modules
-divlikes:
-- bennugd
----
++++
+categories = ["modules"]
+layout = "module"
+title = "mod_map"
+
++++
 
 Maps module.

@@ -1,12 +1,10 @@
----
-title: pal_map_assign()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_map
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_map"]
+title = "pal_map_assign()"
+
++++
 
 ## Definition
 

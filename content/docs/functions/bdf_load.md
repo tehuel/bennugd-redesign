@@ -1,12 +1,10 @@
----
-title: bdf_load()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_mapmap
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_mapmap"]
+title = "bdf_load()"
+
++++
 
 ## Definition
 

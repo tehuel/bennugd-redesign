@@ -1,12 +1,10 @@
----
-title: get_window_size()
-layout: function
-categories:
-- functions
-divlikes:
-- bennugd
-module: mod_wm
----
++++
+categories = ["functions"]
+layout = "function"
+modules = ["mod_wm"]
+title = "get_window_size()"
+
++++
 
 ## Definition
 
