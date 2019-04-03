@@ -8,10 +8,23 @@ title = "blendop_translucency()"
 
 ## Definition
 
-    blendop_translucency ( )
+    INT blendop_translucency ( <INT blendTable> , <FLOAT amount> )
+
+Modify the [blend table]({{< ref "blend_tables" >}}) by setting how much the object is visible and how much what is behind the source. This means that the graphic the blend operation is assigned to will appear translucent or transparent.
+
+This will modify both the source and destination section of the [blend table]({{< ref "blend_tables" >}}).
+
+The source is multiplied by `amount` and the destination is multiplied by `1 - amount`.
 
 ## Parameters
 
+- INT blendTable - The [blend table]({{< ref "blend_tables" >}}) to apply.
+- FLOAT amount - Opacity factor ( `1` (opaque) - `0` (transparent) ).
+
 ## Returns
 
-## Example
+INT : true
+
+## Notes
+
+To set an amount of `0.5` is the same as doing using a [blit flag]({{< ref "blit_flags" >}}) of `B_TRANSLUCENT`.
