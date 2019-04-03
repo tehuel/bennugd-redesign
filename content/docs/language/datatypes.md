@@ -15,7 +15,7 @@ User made types can also be defined, by use of the operator `Type`.
 ## List of Types
 
 - Array
-- Byte
+- [`Byte`]({{< ref "byte" >}})
 - Float
 - Int
 - [`Pointer`]({{< ref "pointer" >}})
