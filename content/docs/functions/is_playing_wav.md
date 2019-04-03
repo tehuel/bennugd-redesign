@@ -9,11 +9,19 @@ wip = "true"
 
 ## Definition
 
-    is_playing_wav ( )
+    INT is_playing_wav ( INT <channel > )
+
+Checks to see if Bennu is playing a wave file on the indicated Sound_channel, started with play_wav().
 
 ## Parameters
 
+INT channel: The Sound_channel
+
 ## Returns
+
+INT : Whether Bennu is playing a song at the moment of calling.
+true    - Bennu is playing a song.
+false   - Bennu is not playing a song.
 
 ## Example
 

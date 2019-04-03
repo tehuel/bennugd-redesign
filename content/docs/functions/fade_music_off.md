@@ -9,13 +9,21 @@ wip = "true"
 
 ## Definition
 
-    fade_music_off ( )
+    INT fade_music_off ( <INT ms> )
+
+Fades off the song, played by play_song().
 
 ## Parameters
 
+INT ms  - Microseconds of fading (the duration).
+
 ## Returns
+
+INT : Error.
+-1  - Error: sound inactive.
 
 ## Example
 
-```
-```
+## See also
+
+fade_music_in().
