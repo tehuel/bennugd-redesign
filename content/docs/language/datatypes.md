@@ -6,7 +6,11 @@ title = "Data Types"
 
 ## Description
 
-Datatypes give meaning to data and dictate how a variable acts and reacts. Examples of datatypes are ints, floats and strings. Special cases are voids, arrays, varspaces and structs. User made types can also be defined, by use of the operator Type.
+Datatypes give meaning to data and dictate how a variable acts and reacts.
+
+Examples of datatypes are `int`s, `float`s and `string`s. Special cases are `void`s, `array`s, `varspace`s and `struct`s.
+
+User made types can also be defined, by use of the operator `Type`.
 
 ## List of Types
 
@@ -14,7 +18,7 @@ Datatypes give meaning to data and dictate how a variable acts and reacts. Examp
 - Byte
 - Float
 - Int
-- [`Pointer`]({{< ref "/docs/language/pointer" >}})
+- [`Pointer`]({{< ref "pointer" >}})
 - Short
 - Sizeof
 - String
