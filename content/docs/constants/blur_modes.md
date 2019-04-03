@@ -6,7 +6,7 @@ title = "Blur Modes"
 
 +++
 
-Blur modes are used to specify the mode of blurring in the [`blur()`]({{< ref "/docs/functions/blur" >}}).
+Blur modes are used to specify the mode of blurring in the [`blur()`]({{< ref "blur" >}}) function.
 
 ## List
 
