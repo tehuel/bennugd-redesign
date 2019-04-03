@@ -8,10 +8,29 @@ title = "memory_free()"
 
 ## Definition
 
-    memory_free ( )
+    INT memory_free ( )
 
-## Parameters
+Returns the free memory total in bytes.
+
+Also called `mem_available()`.
 
 ## Returns
 
+INT : Free memory total in bytes.
+
 ## Example
+
+```
+import "mod_mem"
+import "mod_say"
+
+Process Main()
+Begin
+
+    say("Total memory: " + memory_total() );
+    say("Free memory:  " + memory_free() );
+
+End
+```
+
+Used in example: [`say()`]({{< ref "say" >}}), [`memory_total()`]({{< ref "memory_total" >}}), [`memory_free()`]({{< ref "memory_free" >}}).

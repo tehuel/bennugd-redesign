@@ -8,10 +8,29 @@ title = "memory_total()"
 
 ## Definition
 
-    memory_total ( )
+    INT memory_total ( )
 
-## Parameters
+Returns the memory total in bytes.
+
+Also called `mem_total()`.
 
 ## Returns
 
+INT : Memory total in bytes.
+
 ## Example
+
+```
+import "mod_mem"
+import "mod_say"
+
+Process Main()
+Begin
+
+    say("Total memory: " + memory_total() );
+    say("Free memory:  " + memory_free() );
+
+End
+```
+
+Used in example: [`say()`]({{< ref "say" >}}), [`memory_total()`]({{< ref "memory_total" >}}), [`memory_free()`]({{< ref "memory_free" >}}).
