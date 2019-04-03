@@ -10,18 +10,18 @@ title = "get_angle()"
 
     INT get_angle ( <INT processID> )
 
-Returns the angle between the coordinates of a certain process and the process calling `get_angle()`.
+Returns the [`angle`]({{< ref "angle" >}}) between the coordinates of a certain [`process`]({{< ref "process" >}}) and the process calling `get_angle()`.
 
 ## Parameters
 
-- INT processID - The other process.
+- INT processID - The other [`process`]({{< ref "process" >}}).
 
 ## Returns
 
-INT : The wanted angle.
+INT : The wanted [`angle`]({{< ref "angle" >}}).
 
-- `-1` - An error may have occurred: invalid process.
-- `!-1` - The wanted angle.
+- `-1` - An error may have occurred: invalid [`process`]({{< ref "process" >}}).
+- `!-1` - The wanted [`angle`]({{< ref "angle" >}}).
 
 ## Example
 
@@ -110,9 +110,8 @@ Begin
 End
 ```
 
-Used in example: [`set_mode()`]({{< ref "/docs/functions/set_mode" >}}), [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/functions/map_clear" >}}), [`drawing_map()`]({{< ref "/docs/functions/drawing_map" >}}), [`drawing_color()`]({{< ref "/docs/functions/drawing_color" >}}), [`draw_line()`]({{< ref "/docs/functions/draw_line" >}}), [`write()`]({{< ref "/docs/functions/write" >}}), [`write_int()`]({{< ref "/docs/functions/write_int" >}}), [`get_id()`]({{< ref "/docs/functions/get_id" >}}), [`get_angle()`]({{< ref "/docs/functions/get_angle" >}}), [`get_dist()`]({{< ref "/docs/functions/get_dist" >}}),resolution, mouse, graph, x, y, angle, priority
+Used in example: [`set_mode()`]({{< ref "set_mode" >}}), [`map_new()`]({{< ref "map_new" >}}), [`map_clear()`]({{< ref "map_clear" >}}), [`drawing_map()`]({{< ref "drawing_map" >}}), [`drawing_color()`]({{< ref "drawing_color" >}}), [`draw_line()`]({{< ref "draw_line" >}}), [`write()`]({{< ref "write" >}}), [`write_int()`]({{< ref "write_int" >}}), [`get_id()`]({{< ref "get_id" >}}), [`get_angle()`]({{< ref "get_angle" >}}), [`get_dist()`]({{< ref "get_dist" >}}),resolution, mouse, graph, x, y, angle, priority
 
-This example could also be done with [`fget_angle()`]({{< ref "/docs/functions/fget_angle" >}}), which is easier and doesn't require an extra process.
+This example could also be done with [`fget_angle()`]({{< ref "fget_angle" >}}), which is easier and doesn't require an extra process.
 
-> It could look something like: http://wwwhome.cs.utwente.nl/~bergfi/fenix/wiki/get_angle.PNG
-
+> It could look something like: [http://wwwhome.cs.utwente.nl/~bergfi/fenix/wiki/get_angle.PNG](http://wwwhome.cs.utwente.nl/~bergfi/fenix/wiki/get_angle.PNG)

@@ -10,9 +10,9 @@ title = "advance()"
 
     INT advance ( <INT distance> )
 
-Moves the calling process forward by distance units in the direction of the process' angle.
+Moves the calling [`process`]({{< ref "process" >}}) forward by _distance_ units in the direction of the process' [`angle`]({{< ref "angle" >}}).
 
-This function is influenced by the local variables angle and resolution.
+This function is influenced by the local variables [`angle`]({{< ref "angle" >}}) and [`resolution`]({{< ref "resolution" >}}).
 
 ## Parameters
 

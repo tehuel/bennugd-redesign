@@ -10,22 +10,24 @@ title = "collision()"
 
     INT collision ( <INT processID|processTypeID> )
 
-Checks if a process collided with the process calling `collision()`.
+Checks if a [`process`]({{< ref "process" >}}) collided with the [`process`]({{< ref "process" >}}) calling `collision()`.
 
 When a `processTypeID` is specified, there could be multiple fitting collisions. In this case, `collision()` returns a `processID` on each subsequent call, until it returns `0`. This can be reset by use of the `frame;` statement, and in such case, `frame(0);` can be handy.
 
-See also [`collision_box()`]({{< ref "/docs/functions/collision_box" >}}) and [`collision_circle()`]({{< ref "/docs/functions/collision_circle" >}}).
-
 ## Parameters
 
-- INT processID|processTypeID - The ProcessID of the process or the ProcessTypeID of the type of processes to be checked.
+- INT processID|processTypeID - The ProcessID of the [`process`]({{< ref "process" >}}) or the ProcessTypeID of the type of processes to be checked.
 
 ## Returns
 
-INT : The ID of the collided process.
+INT : The ID of the collided [`process`]({{< ref "process" >}}).
 
-- `0 ` - No collision
-- `>0` - The processID of the process colliding with the current process
+- `0` - No collision
+- `>0` - The processID of the [`process`]({{< ref "process" >}}) colliding with the current [`process`]({{< ref "process" >}})
+
+## See Also
+
+See also [`collision_box()`]({{< ref "collision_box" >}}) and [`collision_circle()`]({{< ref "collision_circle" >}}).
 
 ## Example
 
@@ -78,4 +80,4 @@ Begin
 End
 ```
 
-Used in example: [`write_string()`]({{< ref "/docs/functions/write_string" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), [`collision()`]({{< ref "/docs/functions/collision" >}}), [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_clear()`]({{< ref "/docs/functions/map_clear" >}}), [`advance()`]({{< ref "/docs/functions/advance" >}}), [`let_me_alone()`]({{< ref "/docs/functions/let_me_alone" >}}), graph, type.
+Used in example: [`write_string()`]({{< ref "write_string" >}}), [`key()`]({{< ref "key" >}}), [`collision()`]({{< ref "collision" >}}), [`map_new()`]({{< ref "map_new" >}}), [`map_clear()`]({{< ref "map_clear" >}}), [`advance()`]({{< ref "advance" >}}), [`let_me_alone()`]({{< ref "let_me_alone" >}}), graph, type.

@@ -9,13 +9,13 @@ title = "angle"
 
     INT angle = 0
 
-Angle is a predefined local variable which holds the angle (measured in 1/1000 of a degree) at which the graphic of that process (assigned by the local variable graph) will be drawn. It also influences the result of the function advance().
+Angle is a predefined local variable which holds the angle (measured in 1/1000 of a degree) at which the graphic of that [`process`]({{< ref "process" >}}) (assigned by the local variable graph) will be drawn. It also influences the result of the function advance().
 
 An angle of 0 means to the right, 90000 means up, 180000 means left and 270000 and -90000 mean down.
 
 ## Example
 
-To make the graphic of a process spin
+To make the graphic of a [`process`]({{< ref "process" >}}) spin
 
 ```
 import "mod_grproc"
