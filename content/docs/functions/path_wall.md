@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_path"]
 title = "path_wall()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "path_wall()"
 ## Returns
 
 ## Example
+
+```
+```

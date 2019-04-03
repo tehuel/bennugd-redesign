@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_sound"]
 title = "pause_song()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "pause_song()"
 ## Returns
 
 ## Example
+
+```
+```

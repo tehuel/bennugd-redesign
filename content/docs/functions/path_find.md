@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_path"]
 title = "path_find()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "path_find()"
 ## Returns
 
 ## Example
+
+```
+```

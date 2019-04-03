@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_"]
 title = "lcd_about()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "lcd_about()"
 ## Returns
 
 ## Example
+
+```
+```

@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_draw"]
 title = "drawing_color()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "drawing_color()"
 ## Returns
 
 ## Example
+
+```
+```

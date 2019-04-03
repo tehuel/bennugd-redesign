@@ -2,6 +2,7 @@
 categories = ["modules"]
 layout = "module"
 title = "mod_effects"
+wip = "true"
 
 +++
 

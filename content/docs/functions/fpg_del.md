@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_map"]
 title = "fpg_del()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "fpg_del()"
 ## Returns
 
 ## Example
+
+```
+```

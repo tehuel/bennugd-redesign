@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_map"]
 title = "fade_off()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "fade_off()"
 ## Returns
 
 ## Example
+
+```
+```

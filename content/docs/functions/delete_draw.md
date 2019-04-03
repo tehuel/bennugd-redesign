@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_draw"]
 title = "delete_draw()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "delete_draw()"
 ## Returns
 
 ## Example
+
+```
+```

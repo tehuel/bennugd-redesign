@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_file"]
 title = "fwrite()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "fwrite()"
 ## Returns
 
 ## Example
+
+```
+```

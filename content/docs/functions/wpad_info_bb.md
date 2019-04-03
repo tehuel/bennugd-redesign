@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_"]
 title = "wpad_info_bb()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "wpad_info_bb()"
 ## Returns
 
 ## Example
+
+```
+```

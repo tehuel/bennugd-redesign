@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_time"]
 title = "ftime()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "ftime()"
 ## Returns
 
 ## Example
+
+```
+```

@@ -23,7 +23,6 @@ INT : The result of the check
 - `0` (false) - The process with given processID is not alive or there are no processes alive of the given processTypeID.
 - `1` (true)  - The process with given processID is alive or there is at least one process alive of the given processTypeID.
 
-
 ## Example
 
 ```

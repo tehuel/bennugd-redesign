@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_flic"]
 title = "fli_start()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "fli_start()"
 ## Returns
 
 ## Example
+
+```
+```

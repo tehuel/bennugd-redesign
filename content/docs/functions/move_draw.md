@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_draw"]
 title = "move_draw()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "move_draw()"
 ## Returns
 
 ## Example
+
+```
+```

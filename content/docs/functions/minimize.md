@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_wm"]
 title = "minimize()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "minimize()"
 ## Returns
 
 ## Example
+
+```
+```

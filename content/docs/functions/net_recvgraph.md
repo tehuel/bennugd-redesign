@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_"]
 title = "net_recvgraph()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "net_recvgraph()"
 ## Returns
 
 ## Example
+
+```
+```

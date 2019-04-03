@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_draw"]
 title = "draw_fcircle()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "draw_fcircle()"
 ## Returns
 
 ## Example
+
+```
+```

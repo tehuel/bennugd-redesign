@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_sound"]
 title = "set_panning()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "set_panning()"
 ## Returns
 
 ## Example
+
+```
+```

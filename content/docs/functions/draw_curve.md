@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_draw"]
 title = "draw_curve()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "draw_curve()"
 ## Returns
 
 ## Example
+
+```
+```

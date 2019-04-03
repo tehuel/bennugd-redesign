@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_map"]
 title = "pal_load()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "pal_load()"
 ## Returns
 
 ## Example
+
+```
+```

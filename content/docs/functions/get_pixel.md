@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_map"]
 title = "get_pixel()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "get_pixel()"
 ## Returns
 
 ## Example
+
+```
+```

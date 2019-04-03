@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_file"]
 title = "feof()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "feof()"
 ## Returns
 
 ## Example
+
+```
+```

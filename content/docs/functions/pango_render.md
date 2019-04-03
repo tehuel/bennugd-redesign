@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_"]
 title = "pango_render()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "pango_render()"
 ## Returns
 
 ## Example
+
+```
+```

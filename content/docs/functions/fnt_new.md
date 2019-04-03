@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_map"]
 title = "fnt_new()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "fnt_new()"
 ## Returns
 
 ## Example
+
+```
+```

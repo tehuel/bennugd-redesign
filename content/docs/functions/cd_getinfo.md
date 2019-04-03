@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_cd"]
 title = "cd_getinfo()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "cd_getinfo()"
 ## Returns
 
 ## Example
+
+```
+```

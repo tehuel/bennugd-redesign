@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_map"]
 title = "rgb_get()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "rgb_get()"
 ## Returns
 
 ## Example
+
+```
+```

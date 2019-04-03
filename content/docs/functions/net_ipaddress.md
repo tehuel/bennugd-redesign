@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_"]
 title = "net_ipaddress()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "net_ipaddress()"
 ## Returns
 
 ## Example
+
+```
+```

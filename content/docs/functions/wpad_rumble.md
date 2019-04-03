@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_"]
 title = "wpad_rumble()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "wpad_rumble()"
 ## Returns
 
 ## Example
+
+```
+```

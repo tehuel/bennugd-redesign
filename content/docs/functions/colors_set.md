@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_map"]
 title = "colors_set()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "colors_set()"
 ## Returns
 
 ## Example
+
+```
+```

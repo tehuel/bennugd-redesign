@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_regex"]
 title = "split()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "split()"
 ## Returns
 
 ## Example
+
+```
+```

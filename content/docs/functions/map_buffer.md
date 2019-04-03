@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_map"]
 title = "map_buffer()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "map_buffer()"
 ## Returns
 
 ## Example
+
+```
+```

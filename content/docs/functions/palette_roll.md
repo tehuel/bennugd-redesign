@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_map"]
 title = "palette_roll()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "palette_roll()"
 ## Returns
 
 ## Example
+
+```
+```

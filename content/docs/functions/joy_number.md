@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_joy"]
 title = "joy_number()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "joy_number()"
 ## Returns
 
 ## Example
+
+```
+```

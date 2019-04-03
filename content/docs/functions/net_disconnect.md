@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_"]
 title = "net_disconnect()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "net_disconnect()"
 ## Returns
 
 ## Example
+
+```
+```

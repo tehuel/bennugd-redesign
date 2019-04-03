@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_regex"]
 title = "join()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "join()"
 ## Returns
 
 ## Example
+
+```
+```

@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_screen"]
 title = "screen_get()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "screen_get()"
 ## Returns
 
 ## Example
+
+```
+```

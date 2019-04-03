@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_flic"]
 title = "frame_fli()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "frame_fli()"
 ## Returns
 
 ## Example
+
+```
+```

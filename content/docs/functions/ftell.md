@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_file"]
 title = "ftell()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "ftell()"
 ## Returns
 
 ## Example
+
+```
+```

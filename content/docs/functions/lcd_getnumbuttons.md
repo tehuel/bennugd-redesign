@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_"]
 title = "lcd_getnumbuttons()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "lcd_getnumbuttons()"
 ## Returns
 
 ## Example
+
+```
+```

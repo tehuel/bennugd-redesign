@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_flic"]
 title = "reset_fli()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "reset_fli()"
 ## Returns
 
 ## Example
+
+```
+```

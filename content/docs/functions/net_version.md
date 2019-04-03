@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_"]
 title = "net_version()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "net_version()"
 ## Returns
 
 ## Example
+
+```
+```

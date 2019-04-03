@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_wm"]
 title = "get_window_pos()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "get_window_pos()"
 ## Returns
 
 ## Example
+
+```
+```

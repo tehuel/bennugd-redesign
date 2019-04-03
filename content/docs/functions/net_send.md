@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_"]
 title = "net_send()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "net_send()"
 ## Returns
 
 ## Example
+
+```
+```

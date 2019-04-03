@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_text"]
 title = "write_string()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "write_string()"
 ## Returns
 
 ## Example
+
+```
+```

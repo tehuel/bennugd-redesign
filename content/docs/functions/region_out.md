@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_screen"]
 title = "region_out()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "region_out()"
 ## Returns
 
 ## Example
+
+```
+```

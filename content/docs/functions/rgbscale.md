@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_effects"]
 title = "rgbscale()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "rgbscale()"
 ## Returns
 
 ## Example
+
+```
+```

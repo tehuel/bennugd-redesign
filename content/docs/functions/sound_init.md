@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_sound"]
 title = "sound_init()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "sound_init()"
 ## Returns
 
 ## Example
+
+```
+```

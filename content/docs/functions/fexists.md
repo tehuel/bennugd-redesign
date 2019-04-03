@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_file"]
 title = "fexists()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "fexists()"
 ## Returns
 
 ## Example
+
+```
+```

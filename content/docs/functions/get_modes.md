@@ -3,6 +3,7 @@ categories = ["functions"]
 layout = "function"
 modules = ["mod_video"]
 title = "get_modes()"
+wip = "true"
 
 +++
 
@@ -15,3 +16,6 @@ title = "get_modes()"
 ## Returns
 
 ## Example
+
+```
+```
