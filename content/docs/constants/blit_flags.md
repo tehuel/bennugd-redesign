@@ -13,7 +13,6 @@ Blit flags are [bit flags]({{< ref "/docs/language/bit_flags" >}}) which can be 
 
 They can also be used to specify a certain effect for the blitting of the graphic of a process, by assigning blit flags to its local variable flags.
 
-
 ## List
 
 | Constant | Value | Description |

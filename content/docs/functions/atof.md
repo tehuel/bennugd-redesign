@@ -19,4 +19,3 @@ Returns the float value of the number specified in a certain string.
 ## Returns
 
 FLOAT : The float value of the number specified by the specified string.
-

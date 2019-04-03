@@ -1,5 +1,5 @@
 +++
-categories = ["functions"]
+categories = ["functions", "strings"]
 layout = "function"
 modules = ["mod_string"]
 title = "asc()"
@@ -36,4 +36,4 @@ Begin
 End
 ```
 
-Used in example: write(), key()
+Used in example: [`write()`]({{< ref "write" >}}), [`key()`]({{< ref "key" >}})

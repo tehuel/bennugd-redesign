@@ -76,5 +76,3 @@ End
 ```
 
 Used in example: [`set_fps()`]({{< ref "/docs/functions/set_fps" >}}), [`set_text_color()`]({{< ref "/docs/functions/set_text_color" >}}), [`write()`]({{< ref "/docs/functions/write" >}}), [`write_int()`]({{< ref "/docs/functions/write_int" >}}), [`write_string()`]({{< ref "/docs/functions/write_string" >}}), [`write_float()`]({{< ref "/docs/functions/write_float" >}}), [`key()`]({{< ref "/docs/functions/key" >}}), [`delete_text()`]({{< ref "/docs/functions/delete_text" >}}), text_z, text_flags, fps
-
----

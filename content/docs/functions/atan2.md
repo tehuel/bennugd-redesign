@@ -27,8 +27,10 @@ FLOAT : The arctangent result of the specified value, an angle between but not i
 
 The angle value returned by this function is in thousandths of degrees, as most angles within Bennu are.
 
+## Further Reading
+
 To read about all aspects of trigonometry, you can visit Wikipedia's [Trigonometric functions](https://en.wikipedia.org/wiki/Trigonometric_functions) and [atan2](https://en.wikipedia.org/wiki/Atan2) pages.
 
 ## See also
 
- - [`atan()`]({{< ref "/docs/functions/atan" >}})
+- [`atan()`]({{< ref "/docs/functions/atan" >}})

@@ -27,7 +27,6 @@ POINTER <pointername> = <value>;
 | `( ... )*` | 0 or more times |
 | `( ... )+` | 1 or more times |
 
-
 ## Description
 
 Pointers, are used to point to a location in memory. It uses 32 bits (4 bytes) so it can map 4GB of memory into bytes.
