@@ -36,7 +36,6 @@ A few examples:
 - `MyDir/*` - Returns the filename of any file/directory in MyDir\ relative to the current directory.
 - `C:/Program Files/*`  - Returns the filename of any file/directory in C:\Program Files\*.
 
-
 ## Example
 
 ```

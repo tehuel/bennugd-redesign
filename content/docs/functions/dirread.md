@@ -8,7 +8,7 @@ title = "dirread()"
 
 ## Definition
 
-	STRING dirread ( <INT handle> )
+    STRING dirread ( <INT handle> )
 
 Given a path with wildcards (`'*'` or `'?'` characters), returns the first file that matches and, in every next call, all matching files found until no more files exists. It then returns `NIL`. Presumebly it's somewhat similair to [`glob()`]({{< ref "/docs/functions/glob" >}}).
 
@@ -20,7 +20,7 @@ Also you can read multiple directories with different search criteria. This is u
 
 ## Returns
 
-STRING  : The filename that matches with the wildcard search pattern.
+STRING : The filename that matches with the wildcard search pattern.
 
 ## Example
 
@@ -130,3 +130,5 @@ BEGIN
 
 END
 ```
+
+Used in example: [`say()`]({{< ref "say" >}}), [`diropen()`]({{< ref "diropen" >}}), [`dirclose()`]({{< ref "dirclose" >}}).
