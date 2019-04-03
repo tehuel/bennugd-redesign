@@ -1,6 +1,7 @@
 +++
-categories = ["general", "language"]
+categories = ["general", "language", "keywords", "basic statements"]
 title = "Process"
+syntax_legend = "true"
 
 +++
 
@@ -10,18 +11,22 @@ title = "Process"
 Process <name> ( [ <parameters> ] )
 [ Public
 
-[ <public variables> ]
-]
+    [ <public variables> ]
+
+End ]
 [ Private
 
-[ <private variables> ]
-]
+    [ <private variables> ]
+
+End ]
 Begin
 
-[ <main code> ]
-[OnExit
+    [ <main code> ]
 
-[ <OnExit code> ]
+[ OnExit
+
+    [ <exit code> ]
+
 ]
 End
 ```
@@ -112,4 +117,3 @@ Used in example: [`map_new()`]({{< ref "/docs/functions/map_new" >}}), [`map_cle
 And when the `SpaceShip` process ends - because the code of it reached the End or something sent an `s_kill` signal - the `OnExit` code starts. In this example it will unload the memory used for the created graphic. If there is no `OnExit` code, the process will just end.
 
 This will make a SpaceShip with a cyan coloured block, able to move around the screen.
-
