@@ -1,9 +1,8 @@
 +++
-categories = ["functions"]
+categories = ["functions", "songs"]
 layout = "function"
 modules = ["mod_sound"]
 title = "load_song()"
-wip = "true"
 
 +++
 
@@ -11,7 +10,7 @@ wip = "true"
 
     INT load_song ( <STRING filename>, [ <POINTER id>] )
 
-Loads a song for later use with play_song().
+Loads a song for later use with [`play_song()`]({{< ref "play_song" >}}).
 
 There are multiple filetypes you can load using this function. Included are:
 
@@ -21,21 +20,23 @@ There are multiple filetypes you can load using this function. Included are:
 
 ## Parameters
 
-STRING filename     - The music file to be loaded, including a possible path.
-POINTER id  - Optional parameter, for loading a song in the background.
+- STRING filename - The music file to be loaded, including a possible path.
+- POINTER id - Optional parameter, for loading a song in the background.
 
 ## Returns
 
-INT : SongID
--2  - Waiting for the file to be loaded, see notes.
--1  - There was an error loading the file.
->=0     - The songID of the newly created sound.
+INT : [SongID]({{< ref "songid" >}})
 
-the following applies for versions prior rc282:
+- `-2` - Waiting for the file to be loaded, see notes.
+- `-1` - There was an error loading the file.
+- `>=0` - The songID of the newly created sound.
 
-INT : SongID
--1  - Could not load music file (errormessage in console).
->=0     - The SongID.
+> the following applies for versions prior rc282:
+>
+> INT : SongID
+>
+> - `-1` - Could not load music file (errormessage in console).
+> - `>=0` - The SongID.
 
 ## Notes
 
@@ -72,4 +73,4 @@ OnExit
 End
 ```
 
-Used in example: play_song(), key(), unload_song()
+Used in example: [`play_song()`]({{< ref "play_song" >}}), [`key()`]({{< ref "key" >}}), [`unload_song()`]({{< ref "unload_song" >}}).

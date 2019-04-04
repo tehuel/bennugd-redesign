@@ -1,9 +1,8 @@
 +++
-categories = ["functions"]
+categories = ["functions", "songs"]
 layout = "function"
 modules = ["mod_sound"]
 title = "is_playing_song()"
-wip = "true"
 
 +++
 
@@ -11,13 +10,14 @@ wip = "true"
 
     INT is_playing_song ( )
 
-Checks to see if Bennu is playing a song file, started with play_song().
+Checks to see if Bennu is playing a song file, started with [`play_song()`]({{< ref "play_song" >}}).
 
 ## Returns
 
 INT : Whether Bennu is playing a song at the moment of calling.
-true    - Bennu is playing a song.
-false   - Bennu is not playing a song.
+
+- `true` - Bennu is playing a song.
+- `false` - Bennu is not playing a song.
 
 ## Example
 
@@ -110,4 +110,4 @@ begin
 end
 ```
 
-Used in example: key(), set_mode(), load_song(), write(), write_int(), pause_song(), play_song(), stop_song(), resume_song(), fade_music_in(), fade_music_off(), set_song_volume().
+Used in example: [`key()`]({{< ref "key" >}}), [`set_mode()`]({{< ref "set_mode" >}}), [`load_song()`]({{< ref "load_song" >}}), [`write()`]({{< ref "write" >}}), [`write_int()`]({{< ref "write_int" >}}), [`pause_song()`]({{< ref "pause_song" >}}), [`play_song()`]({{< ref "play_song" >}}), [`stop_song()`]({{< ref "stop_song" >}}), [`resume_song()`]({{< ref "resume_song" >}}), [`fade_music_in()`]({{< ref "fade_music_in" >}}), [`fade_music_off()`]({{< ref "fade_music_off" >}}), [`set_song_volume()`]({{< ref "set_song_volume" >}}).
